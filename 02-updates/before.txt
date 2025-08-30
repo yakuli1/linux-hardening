@@ -1,0 +1,16 @@
+Package files:
+ 100 /var/lib/dpkg/status
+     release a=now
+ 500 http://http.kali.org/kali kali-rolling/non-free-firmware amd64 Packages
+     release o=Kali,a=kali-rolling,n=kali-rolling,c=non-free-firmware,b=amd64
+     origin http.kali.org
+ 500 http://http.kali.org/kali kali-rolling/non-free amd64 Packages
+     release o=Kali,a=kali-rolling,n=kali-rolling,c=non-free,b=amd64
+     origin http.kali.org
+ 500 http://http.kali.org/kali kali-rolling/contrib amd64 Packages
+     release o=Kali,a=kali-rolling,n=kali-rolling,c=contrib,b=amd64
+     origin http.kali.org
+ 500 http://http.kali.org/kali kali-rolling/main amd64 Packages
+     release o=Kali,a=kali-rolling,n=kali-rolling,c=main,b=amd64
+     origin http.kali.org
+Pinned packages:

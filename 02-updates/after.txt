@@ -1,0 +1,1638 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Calculating upgrade...
+The following packages were automatically installed and are no longer required:
+  libqt5ct-common1.8 libsigsegv2 python3-packaging-whl
+  python3-pyinstaller-hooks-contrib python3-wheel-whl
+Use 'sudo apt autoremove' to remove them.
+The following packages have been kept back:
+  apache2 apache2-bin apache2-data apache2-utils atril bind9-dnsutils
+  bind9-host bind9-libs binutils binutils-common binutils-x86-64-linux-gnu
+  cherrytree chromium chromium-common chromium-sandbox clang-18 clang-19
+  clang-tools-19 cpp-14 cpp-14-x86-64-linux-gnu firefox-esr g++-14
+  g++-14-x86-64-linux-gnu gcc-14 gcc-14-base gcc-14-x86-64-linux-gnu
+  gstreamer1.0-plugins-bad gstreamer1.0-plugins-good gvfs gvfs-backends
+  gvfs-common gvfs-daemons gvfs-fuse gvfs-libs gvmd gvmd-common
+  initramfs-tools initramfs-tools-core kali-linux-headless lib32gcc-s1
+  lib32stdc++6 libapache2-mod-php8.4 libarchive13t64 libasan8 libatomic1
+  libatrildocument3t64 libatrilview3t64 libauthen-sasl-perl libavcodec61
+  libavfilter10 libavformat61 libavutil59 libbinutils libbluray2 libcc1-0
+  libclang-common-18-dev libclang-common-19-dev libclang-cpp18 libclang-cpp19
+  libclang1-18 libclang1-19 libctf0 libebook-1.2-21t64
+  libedataserver-1.2-27t64 libfluidsynth3 libgcc-14-dev libgcc-s1 libgdal36
+  libgeos-c1t64 libgfortran5 libgomp1 libgphoto2-6t64 libgprofng0
+  libgstreamer-plugins-bad1.0-0 libgtksourceview-4-0 libgupnp-1.6-0
+  libgvm22t64 libhwasan0 libhwloc-plugins libitm1 libjavascriptcoregtk-4.1-0
+  libllvm18 libllvm19 liblsan0 libneon27t64 libneon27t64-gnutls libnetcdf22
+  libnetpbm11t64 libobjc-14-dev libobjc4 libopenconnect5 libpskc0t64
+  libqt5webenginecore5 libquadmath0 libraptor2-0 librsvg2-2 librsvg2-common
+  libsane-common libsane1 libsoup-2.4-1 libspatialite8t64 libstdc++-14-dev
+  libstdc++6 libstoken1t64 libswscale8 libtsan2 libubsan1 libudisks2-0
+  libwebkit2gtk-4.1-0 libwireshark18 libxklavier16 libxml++2.6-2v5 libxml2
+  libxml2-dev libxml2-utils libxslt1.1 libyelp0 linux-image-amd64 llvm-18
+  llvm-18-dev llvm-18-linker-tools llvm-18-runtime llvm-18-tools llvm-19
+  llvm-19-dev llvm-19-linker-tools llvm-19-runtime llvm-19-tools mate-calc
+  medusa mitmproxy netpbm network-manager-openconnect
+  network-manager-openconnect-gnome openconnect php8.4-cli php8.4-common
+  php8.4-mysql php8.4-opcache php8.4-readline pipx python3-argon2
+  python3-flask python3-lxml python3-mitmproxy-rs ruby-nokogiri sane-airscan
+  sane-utils shared-mime-info tshark udisks2 wireshark wireshark-common
+  xsltproc yelp
+The following packages will be upgraded:
+  7zip adwaita-icon-theme apt apt-utils arping at-spi2-common at-spi2-core
+  atril-common auditd base-files bash bluez bluez-hcidump bluez-obexd
+  bsdextrautils bsdutils burpsuite busybox certipy-ad cifs-utils comerr-dev
+  console-setup console-setup-linux coreutils cron cron-daemon-common cryptcat
+  cryptsetup cryptsetup-bin cryptsetup-initramfs curl debianutils desktop-base
+  dhcpcd-base dirmngr distro-info-data dns-root-data dpkg dpkg-dev
+  dracut-install dvisvgm e2fsprogs easy-rsa eject emacsen-common engrampa
+  engrampa-common ethtool evolution-data-server-common exfatprogs exploitdb
+  fakeroot faraday fdisk ffuf firebird4.0-common firebird4.0-common-doc
+  firmware-sof-signed flashrom fonts-firacode fonts-hack
+  fonts-noto-color-emoji freerdp3-x11 freetds-common fuse3 galera-4 gawk gcr4
+  gdal-data gdal-plugins gettext-base gir1.2-atk-1.0 gir1.2-atspi-2.0
+  gir1.2-gdkpixbuf-2.0 gir1.2-glib-2.0 gir1.2-gstreamer-1.0 gir1.2-gtk-3.0
+  gir1.2-handy-1 gir1.2-nm-1.0 gir1.2-vte-2.91 git git-man gnome-disk-utility
+  gnome-keyring gnome-keyring-pkcs11 gnupg gnupg-l10n gnupg-utils gnutls-bin
+  go-l2tp gobuster gparted gparted-common gpg gpg-agent gpg-wks-client gpgconf
+  gpgsm gpgv groff-base grub-common grub-pc grub-pc-bin grub2-common
+  gsettings-desktop-schemas gstreamer1.0-gl gstreamer1.0-libav
+  gstreamer1.0-plugins-base gstreamer1.0-x gtk-update-icon-cache hwloc
+  iio-sensor-proxy inetutils-telnet intel-media-va-driver ipp-usb iproute2
+  iputils-ping isympy-common isympy3 john john-data kali-defaults
+  kali-defaults-desktop kali-desktop-base kali-desktop-core kali-desktop-xfce
+  kali-linux-core kali-linux-default kali-linux-firmware kali-menu
+  kali-system-cli kali-system-core kali-system-gui kali-themes
+  kali-themes-common kali-tools-top10 keyboard-configuration ldap-utils
+  libabsl20240722 libaec0 libapt-pkg7.0 libargon2-1 libass9 libatasmart4
+  libatk-bridge2.0-0t64 libatk-wrapper-java libatk-wrapper-java-jni
+  libatk1.0-0t64 libatspi2.0-0t64 libaudit-common libaudit1 libauparse0t64
+  libavif16 libblas3 libblkid1 libblockdev-crypto3 libblockdev-fs3
+  libblockdev-loop3 libblockdev-mdraid3 libblockdev-nvme3 libblockdev-part3
+  libblockdev-swap3 libblockdev-utils3 libblockdev3 libbluetooth3 libbpf1
+  libbson-1.0-0t64 libbytesize-common libbytesize1 libc-bin libc-dev-bin
+  libc-l10n libc6 libc6-dev libc6-i386 libcaja-extension1 libcamel-1.2-64t64
+  libcap2 libcap2-bin libcharon-extauth-plugins libcjson1 libclang-rt-18-dev
+  libclang-rt-19-dev libcom-err2 libcommons-logging-java libcryptsetup12
+  libct4 libctf-nobfd0 libcups2t64 libcurl3t64-gnutls libcurl4t64
+  libdate-manip-perl libdatrie1 libde265-0 libdebconfclient0 libdecor-0-0
+  libdecor-0-plugin-1-gtk libdigest-bubblebabble-perl libdjvulibre-text
+  libdjvulibre21 libdnnl3.6 libdpkg-perl libebackend-1.2-11t64
+  libebook-contacts-1.2-4t64 libedata-book-1.2-27t64 libefiboot1t64
+  libefivar1t64 libegl-mesa0 libexpat1 libexpat1-dev libext2fs2t64 libfakeroot
+  libfbclient2 libfdisk1 libfido2-1 libflashrom1 libfreerdp-client3-3
+  libfreerdp3-3 libftdi1-2 libfuse3-4 libgbm1 libgck-2-2 libgcr-4-4
+  libgcrypt20 libgdbm-compat4t64 libgdbm6t64 libgdk-pixbuf-2.0-0
+  libgdk-pixbuf2.0-bin libgdk-pixbuf2.0-common libgl1-mesa-dri libglib2.0-0t64
+  libglib2.0-bin libglib2.0-data libglx-mesa0 libgmp-dev libgmp10
+  libgmpxx4ldbl libgnutls-dane0t64 libgnutls30t64 libgoa-1.0-0b
+  libgoa-1.0-common libgpg-error-l10n libgpg-error0 libgphoto2-port12t64
+  libgraphite2-3 libgssdp-1.6-0 libgstreamer-gl1.0-0
+  libgstreamer-plugins-base1.0-0 libgstreamer1.0-0 libgtk-3-0t64 libgtk-3-bin
+  libgtk-3-common libgtk-4-1 libgtk-4-bin libgtk-4-common
+  libgtk-4-media-gstreamer libgtk-layer-shell0 libgtksourceview-4-common
+  libhandy-1-0 libheif-plugin-aomenc libheif-plugin-dav1d
+  libheif-plugin-libde265 libheif-plugin-x265 libheif1 libhidapi-hidraw0
+  libhunspell-1.7-0 libhwloc15 libicu76 libidn12 libidn2-0 libigdgmm12
+  libijs-0.35 libimobiledevice-glue-1.0-0 libinih1 libinireader0
+  libio-socket-ssl-perl libjack-jackd2-0 libjcode-pm-perl libjq1
+  libjson-glib-1.0-0 libjson-glib-1.0-common libjudydebian1 libkpathsea6
+  liblapack3 liblastlog2-2 libldap-common libldap2 libldb2 libllvmspirvlib18.1
+  liblrdf0 liblua5.4-0 libmanette-0.2-0 libmariadb3 libmbedcrypto16
+  libmm-glib0 libmongoc-1.0-0t64 libmosquitto1 libmotif-common libmount1
+  libmpg123-0t64 libnet-cidr-perl libnfsidmap1 libnftables1 libnghttp2-14
+  libnm0 libnma-common libnma-gtk4-0 libnma0 libnss-systemd libnss-winbind
+  libnss3 libnvme1t64 libogg0 libopenal-data libopenal1 libopenfec1
+  libopenjp2-7 libopenmpt0t64 libout123-0t64 libpaho-mqtt1.3
+  libpam-gnome-keyring libpam-modules libpam-modules-bin libpam-runtime
+  libpam-systemd libpam-winbind libpam0g libpci3 libperl5.40 libpfm4
+  libpipewire-0.3-0t64 libpipewire-0.3-common libpipewire-0.3-modules
+  libplymouth5 libpng16-16t64 libpoppler-glib8t64 libpoppler147 libpostproc58
+  libproc2-0 libproj25 libptexenc1 libpython3-dev libpython3-stdlib
+  libpython3.13 libpython3.13-dev libpython3.13-minimal libpython3.13-stdlib
+  libqt5core5t64 libqt5dbus5t64 libqt5gui5t64 libqt5network5t64
+  libqt5opengl5t64 libqt5printsupport5t64 libqt5sql5-sqlite libqt5sql5t64
+  libqt5test5t64 libqt5webengine5 libqt5webenginewidgets5 libqt5widgets5t64
+  libqt5xml5t64 libqt6core6t64 libqt6dbus6 libqt6gui6 libqt6network6
+  libqt6opengl6 libqt6openglwidgets6 libqt6printsupport6 libqt6sql6
+  libqt6sql6-sqlite libqt6test6 libqt6widgets6 libqt6xml6 libqtermwidget6-2
+  libraqm0 libre2-11 librpm10 librpmbuild10 librpmio10 librpmsign10 librtmp1
+  libsdl2-2.0-0 libsdl2-mixer-2.0-0 libsmartcols1 libsmbclient0 libsoup-3.0-0
+  libsoup-3.0-common libspa-0.2-bluetooth libspa-0.2-modules
+  libspeechd-module0 libspeechd2 libsqlite3-0 libss2 libssh-4 libssl3t64
+  libstrongswan libstrongswan-standard-plugins libswresample5 libsybdb5
+  libsyn123-0t64 libsynctex2 libsystemd-shared libsystemd0 libsz2 libtalloc2
+  libtcl8.6 libtdb1 libtevent0t64 libtexlua53-5 libthunarx-3-0 libtiff6
+  libtk8.6 libudev1 libunbound8 libupower-glib3 liburcu8t64 liburing2
+  libusb-1.0-0 libuuid1 libvolume-key1 libvpl2 libvpx9 libvte-2.91-0
+  libvte-2.91-common libvulkan1 libwacom-common libwacom9 libwbclient0
+  libwildmidi2 libwinpr3-3 libwireplumber-0.5-0 libwireshark-data libwiretap15
+  libwsutil16 libxatracker2 libxfce4windowing-0-0 libxfce4windowing-common
+  libxkbcommon-x11-0 libxkbcommon0 libxm4 libxml-regexp-perl libxml-twig-perl
+  libxvidcore4 libyara10 libyuv0 libzbar0t64 libze1 libzimg2 libzip-dev
+  libzip5 linux-base linux-libc-dev linux-sysctl-defaults llvm-spirv-18
+  locales login logsave mariadb-client mariadb-client-core mariadb-common
+  mariadb-plugin-provider-bzip2 mariadb-plugin-provider-lz4
+  mariadb-plugin-provider-lzma mariadb-plugin-provider-lzo
+  mariadb-plugin-provider-snappy mariadb-server mariadb-server-compat
+  mariadb-server-core mesa-libgallium mesa-va-drivers mesa-vdpau-drivers
+  mesa-vulkan-drivers metasploit-framework mobile-broadband-provider-info
+  modemmanager mosquitto mount mpg123 netdiscover netmask netsed
+  network-manager network-manager-applet network-manager-gnome
+  network-manager-l10n network-manager-openvpn network-manager-openvpn-gnome
+  network-manager-pptp network-manager-pptp-gnome network-manager-vpnc
+  network-manager-vpnc-gnome nfs-common nftables nginx nginx-common
+  nm-connection-editor notus-scanner offsec-awae-python2 openjdk-21-jre
+  openjdk-21-jre-headless opensc opensc-pkcs11 openssl openssl-provider-legacy
+  openvas-scanner ophcrack ophcrack-cli ospd-openvas patch pci.ids pciutils
+  peass perl perl-base perl-modules-5.40 php8.4 pinentry-curses
+  pinentry-gnome3 pipewire pipewire-bin pipewire-pulse plymouth plymouth-label
+  postgresql-17-pg-gvm preview-latex-style procps proj-bin proj-data
+  pyqt6-dev-tools python-matplotlib-data python3 python3-altgraph
+  python3-apispec python3-asttokens python3-bitstruct python3-blinker
+  python3-bs4 python3-celery python3-censys python3-cffi python3-cffi-backend
+  python3-charset-normalizer python3-cli-helpers python3-click-plugins
+  python3-contourpy python3-cssselect2 python3-cycler python3-dev
+  python3-django python3-engineio python3-executing
+  python3-faraday-agent-parameters-types python3-faraday-plugins
+  python3-flask-restful python3-frozenlist python3-gdal python3-gvm
+  python3-importlib-metadata python3-ipy python3-jq python3-jwt python3-kombu
+  python3-ldb python3-legacycrypt python3-macholib
+  python3-marshmallow-sqlalchemy python3-matplotlib python3-mechanize
+  python3-minimal python3-numexpr python3-opengl python3-openssl
+  python3-paramiko python3-pgspecial python3-pip python3-pip-whl
+  python3-pkg-resources python3-plaster-pastedeploy python3-prompt-toolkit
+  python3-pyexploitdb python3-pyfiglet python3-pygraphviz python3-pyinstaller
+  python3-pylsqpack python3-pyqt6 python3-pytz python3-qrcode python3-redis
+  python3-rq python3-samba python3-setuptools python3-setuptools-whl
+  python3-slugify python3-socketio python3-soupsieve python3-speechd
+  python3-sqlalchemy python3-sqlalchemy-ext python3-starlette python3-sympy
+  python3-talloc python3-tdb python3-tk python3-tldextract python3-typeguard
+  python3-typeshed python3-typing-extensions python3-tz python3-urllib3
+  python3-venv python3-virtualenv python3-xlwt python3-yara python3-zstandard
+  python3.13 python3.13-dev python3.13-minimal python3.13-tk python3.13-venv
+  qt5-gtk-platformtheme qt5ct qt6-base-dev-tools qt6-gtk-platformtheme
+  qt6-qpa-plugins qtbase5-dev-tools qtermwidget-data read-edid redis-server
+  redis-tools responder rfkill rpm rpm-common rpm2cpio rsync rsyslog
+  ruby-gssapi ruby-gyoku ruby-little-plugger ruby-logging ruby-minitest
+  ruby-nori ruby-sqlite3 ruby-unf samba samba-ad-dc samba-ad-provision
+  samba-common samba-common-bin samba-dsdb-modules samba-libs sensible-utils
+  smbclient sound-theme-freedesktop speech-dispatcher
+  speech-dispatcher-audio-plugins speech-dispatcher-espeak-ng
+  sphinx-rtd-theme-common sqlite3 sqlmap squashfs-tools sqv sslyze
+  strongswan-charon strongswan-libcharon strongswan-starter sudo systemd
+  systemd-sysv systemd-timesyncd tasksel tasksel-data tcl8.6 tdb-tools
+  texlive-base texlive-binaries texlive-fonts-recommended texlive-latex-base
+  texlive-latex-extra texlive-latex-recommended texlive-pictures
+  texlive-plain-generic theharvester thunar thunar-data tightvncpasswd
+  tightvncserver tk8.6 toilet-fonts tzdata tzdata-legacy ucf udev unrar
+  update-inetd upower usb.ids util-linux util-linux-extra uuid-dev
+  virtualbox-guest-utils virtualbox-guest-x11 whatweb whois winbind
+  wireless-regdb wireplumber xdg-desktop-portal xfce4 xfce4-screensaver
+  xml-twig-tools xserver-common xserver-xephyr xserver-xorg-core
+  xserver-xorg-legacy xtightvncviewer xvfb yelp-xsl zipcmp zipmerge ziptool
+  zsh
+721 upgraded, 0 newly installed, 0 to remove and 155 not upgraded.
+Inst libc6-i386 [2.41-6] (2.41-12 kali-rolling [amd64]) []
+Inst libc6-dev [2.41-6] (2.41-12 kali-rolling [amd64]) []
+Inst libc-dev-bin [2.41-6] (2.41-12 kali-rolling [amd64]) []
+Inst linux-libc-dev [6.12.25-1kali1] (6.12.38-1kali1 kali-rolling [all]) []
+Inst libc6 [2.41-6] (2.41-12 kali-rolling [amd64])
+Conf libc6 (2.41-12 kali-rolling [amd64])
+Inst base-files [1:2025.2.0] (1:2025.3.0 kali-rolling [amd64])
+Conf base-files (1:2025.3.0 kali-rolling [amd64])
+Inst debianutils [5.22] (5.23.2 kali-rolling [amd64])
+Conf debianutils (5.23.2 kali-rolling [amd64])
+Inst bash [5.2.37-2+b2] (5.2.37-2+b5 kali-rolling [amd64])
+Conf bash (5.2.37-2+b5 kali-rolling [amd64])
+Inst bsdutils [1:2.41-4] (1:2.41.1-1 kali-rolling [amd64])
+Conf bsdutils (1:2.41.1-1 kali-rolling [amd64])
+Inst coreutils [9.7-2] (9.7-3 kali-rolling [amd64])
+Conf coreutils (9.7-3 kali-rolling [amd64])
+Inst openssl-provider-legacy [3.5.0-1] (3.5.2-1 kali-rolling [amd64])
+Conf openssl-provider-legacy (3.5.2-1 kali-rolling [amd64])
+Inst libssl3t64 [3.5.0-1] (3.5.2-1 kali-rolling [amd64])
+Conf libssl3t64 (3.5.2-1 kali-rolling [amd64])
+Inst libcap2 [1:2.75-7] (1:2.75-10+b1 kali-rolling [amd64])
+Conf libcap2 (1:2.75-10+b1 kali-rolling [amd64])
+Inst libsystemd0 [257.5-2] (257.7-1 kali-rolling [amd64]) [systemd:amd64 ]
+Conf libsystemd0 (257.7-1 kali-rolling [amd64]) [systemd:amd64 ]
+Inst xserver-common [2:21.1.16-1.1] (2:21.1.16-1.3 kali-rolling [all]) [systemd:amd64 ]
+Inst xserver-xorg-legacy [2:21.1.16-1.1] (2:21.1.16-1.3 kali-rolling [amd64]) [systemd:amd64 ]
+Inst xserver-xorg-core [2:21.1.16-1.1] (2:21.1.16-1.3 kali-rolling [amd64]) [systemd:amd64 ]
+Inst systemd-sysv [257.5-2] (257.7-1 kali-rolling [amd64]) [systemd:amd64 ]
+Inst libnss-systemd [257.5-2] (257.7-1 kali-rolling [amd64]) [systemd:amd64 ]
+Inst libpam-systemd [257.5-2] (257.7-1 kali-rolling [amd64]) [systemd:amd64 ]
+Inst libsystemd-shared [257.5-2] (257.7-1 kali-rolling [amd64]) [systemd:amd64 on libsystemd-shared:amd64] [udev:amd64 systemd-timesyncd:amd64 systemd:amd64 ]
+Conf libsystemd-shared (257.7-1 kali-rolling [amd64]) [udev:amd64 systemd-timesyncd:amd64 systemd:amd64 ]
+Inst systemd [257.5-2] (257.7-1 kali-rolling [amd64]) [udev:amd64 systemd-timesyncd:amd64 ]
+Inst systemd-timesyncd [257.5-2] (257.7-1 kali-rolling [amd64]) [udev:amd64 ]
+Inst udev [257.5-2] (257.7-1 kali-rolling [amd64]) []
+Inst libudev1 [257.5-2] (257.7-1 kali-rolling [amd64])
+Conf libudev1 (257.7-1 kali-rolling [amd64])
+Inst sqlite3 [3.46.1-4] (3.46.1-7 kali-rolling [amd64]) []
+Inst libsqlite3-0 [3.46.1-4] (3.46.1-7 kali-rolling [amd64])
+Conf libsqlite3-0 (3.46.1-7 kali-rolling [amd64])
+Inst eject [2.41-4] (2.41.1-1 kali-rolling [amd64]) []
+Inst uuid-dev [2.41-4] (2.41.1-1 kali-rolling [amd64]) []
+Inst libuuid1 [2.41-4] (2.41.1-1 kali-rolling [amd64]) [util-linux:amd64 on libuuid1:amd64] [util-linux:amd64 libfdisk1:amd64 ]
+Conf libuuid1 (2.41.1-1 kali-rolling [amd64]) [util-linux:amd64 libfdisk1:amd64 ]
+Inst libfdisk1 [2.41-4] (2.41.1-1 kali-rolling [amd64]) [util-linux:amd64 on libuuid1:amd64] [util-linux:amd64 fdisk:amd64 ]
+Inst bsdextrautils [2.41-4] (2.41.1-1 kali-rolling [amd64]) [util-linux:amd64 on libuuid1:amd64] [util-linux:amd64 fdisk:amd64 ]
+Inst util-linux-extra [2.41-4] (2.41.1-1 kali-rolling [amd64]) [util-linux:amd64 on libuuid1:amd64] [util-linux:amd64 fdisk:amd64 ]
+Inst rfkill [2.41-4] (2.41.1-1 kali-rolling [amd64]) [util-linux:amd64 on libuuid1:amd64] [util-linux:amd64 fdisk:amd64 ]
+Inst libsmartcols1 [2.41-4] (2.41.1-1 kali-rolling [amd64]) [util-linux:amd64 on libsmartcols1:amd64] [util-linux:amd64 on libuuid1:amd64] [mount:amd64 on libsmartcols1:amd64] [util-linux:amd64 fdisk:amd64 mount:amd64 ]
+Conf libsmartcols1 (2.41.1-1 kali-rolling [amd64]) [util-linux:amd64 fdisk:amd64 mount:amd64 ]
+Inst fdisk [2.41-4] (2.41.1-1 kali-rolling [amd64]) [util-linux:amd64 on libsmartcols1:amd64] [util-linux:amd64 on libuuid1:amd64] [mount:amd64 on libsmartcols1:amd64] [util-linux:amd64 mount:amd64 ]
+Inst libblkid1 [2.41-4] (2.41.1-1 kali-rolling [amd64]) [util-linux:amd64 on libblkid1:amd64] [util-linux:amd64 on libsmartcols1:amd64] [util-linux:amd64 on libuuid1:amd64] [mount:amd64 on libblkid1:amd64] [mount:amd64 on libsmartcols1:amd64] [libmount1:amd64 util-linux:amd64 mount:amd64 ]
+Conf libblkid1 (2.41.1-1 kali-rolling [amd64]) [libmount1:amd64 util-linux:amd64 mount:amd64 ]
+Inst libmount1 [2.41-4] (2.41.1-1 kali-rolling [amd64]) [util-linux:amd64 on libblkid1:amd64] [util-linux:amd64 on libmount1:amd64] [util-linux:amd64 on libsmartcols1:amd64] [util-linux:amd64 on libuuid1:amd64] [mount:amd64 on libblkid1:amd64] [mount:amd64 on libmount1:amd64] [mount:amd64 on libsmartcols1:amd64] [util-linux:amd64 mount:amd64 ]
+Conf libmount1 (2.41.1-1 kali-rolling [amd64]) [util-linux:amd64 mount:amd64 ]
+Inst mount [2.41-4] (2.41.1-1 kali-rolling [amd64]) [util-linux:amd64 on libblkid1:amd64] [util-linux:amd64 on libmount1:amd64] [util-linux:amd64 on libsmartcols1:amd64] [util-linux:amd64 on libuuid1:amd64] [util-linux:amd64 ]
+Inst liblastlog2-2 [2.41-4] (2.41.1-1 kali-rolling [amd64]) [util-linux:amd64 on libblkid1:amd64] [util-linux:amd64 on liblastlog2-2:amd64] [util-linux:amd64 on libmount1:amd64] [util-linux:amd64 on libsmartcols1:amd64] [util-linux:amd64 on libuuid1:amd64] [util-linux:amd64 ]
+Conf liblastlog2-2 (2.41.1-1 kali-rolling [amd64]) [util-linux:amd64 ]
+Inst util-linux [2.41-4] (2.41.1-1 kali-rolling [amd64])
+Conf util-linux (2.41.1-1 kali-rolling [amd64])
+Inst libaudit-common [1:4.0.2-2] (1:4.0.5-1 kali-rolling [all])
+Conf libaudit-common (1:4.0.5-1 kali-rolling [all])
+Inst auditd [1:4.0.2-2+b2] (1:4.0.5-1 kali-rolling [amd64]) []
+Inst libauparse0t64 [1:4.0.2-2+b2] (1:4.0.5-1 kali-rolling [amd64]) []
+Inst gawk [1:5.2.1-2+b1] (1:5.3.2-1 kali-rolling [amd64]) []
+Inst libaudit1 [1:4.0.2-2+b2] (1:4.0.5-1 kali-rolling [amd64])
+Conf libaudit1 (1:4.0.5-1 kali-rolling [amd64])
+Inst libpam0g [1.7.0-3] (1.7.0-5 kali-rolling [amd64])
+Conf libpam0g (1.7.0-5 kali-rolling [amd64])
+Inst console-setup-linux [1.237] (1.240 kali-rolling [all]) []
+Inst keyboard-configuration [1.237] (1.240 kali-rolling [all]) [console-setup:amd64 ]
+Inst console-setup [1.237] (1.240 kali-rolling [all])
+Inst libexpat1-dev [2.7.1-1] (2.7.1-2 kali-rolling [amd64]) []
+Inst libexpat1 [2.7.1-1] (2.7.1-2 kali-rolling [amd64])
+Inst libegl-mesa0 [25.0.5-1] (25.0.7-2 kali-rolling [amd64]) []
+Inst mesa-va-drivers [25.0.5-1] (25.0.7-2 kali-rolling [amd64]) []
+Inst libvulkan1 [1.4.309.0-1] (1.4.321.0-1 kali-rolling [amd64]) []
+Inst libgl1-mesa-dri [25.0.5-1] (25.0.7-2 kali-rolling [amd64]) []
+Inst libglx-mesa0 [25.0.5-1] (25.0.7-2 kali-rolling [amd64]) []
+Inst libgbm1 [25.0.5-1] (25.0.7-2 kali-rolling [amd64]) []
+Inst mesa-libgallium [25.0.5-1] (25.0.7-2 kali-rolling [amd64])
+Inst libpam-runtime [1.7.0-3] (1.7.0-5 kali-rolling [all])
+Conf libpam-runtime (1.7.0-5 kali-rolling [all])
+Inst libpam-modules-bin [1.7.0-3] (1.7.0-5 kali-rolling [amd64]) [libpam-modules:amd64 on libpam-modules-bin:amd64] [libpam-modules:amd64 ]
+Conf libpam-modules-bin (1.7.0-5 kali-rolling [amd64]) [libpam-modules:amd64 ]
+Inst libpam-modules [1.7.0-3] (1.7.0-5 kali-rolling [amd64])
+Conf libpam-modules (1.7.0-5 kali-rolling [amd64])
+Inst libapt-pkg7.0 [3.0.1+kali1] (3.1.4+kali1 kali-rolling [amd64])
+Conf libapt-pkg7.0 (3.1.4+kali1 kali-rolling [amd64])
+Inst dpkg [1.22.18+kali1] (1.22.21+kali1 kali-rolling [amd64])
+Conf dpkg (1.22.21+kali1 kali-rolling [amd64])
+Inst libperl5.40 [5.40.1-3] (5.40.1-6 kali-rolling [amd64]) [perl:amd64 ]
+Inst perl [5.40.1-3] (5.40.1-6 kali-rolling [amd64]) []
+Inst perl-base [5.40.1-3] (5.40.1-6 kali-rolling [amd64]) []
+Conf perl-base (5.40.1-6 kali-rolling [amd64]) []
+Inst perl-modules-5.40 [5.40.1-3] (5.40.1-6 kali-rolling [all])
+Inst libgdbm6t64 [1.24-2] (1.26-1 kali-rolling [amd64])
+Inst libgdbm-compat4t64 [1.24-2] (1.26-1 kali-rolling [amd64])
+Inst apt [3.0.1+kali1] (3.1.4+kali1 kali-rolling [amd64]) [apt-utils:amd64 ]
+Conf apt (3.1.4+kali1 kali-rolling [amd64]) [apt-utils:amd64 ]
+Inst apt-utils [3.0.1+kali1] (3.1.4+kali1 kali-rolling [amd64])
+Inst libgmp-dev [2:6.3.0+dfsg-3] (2:6.3.0+dfsg-4 kali-rolling [amd64]) []
+Inst libgmpxx4ldbl [2:6.3.0+dfsg-3] (2:6.3.0+dfsg-4 kali-rolling [amd64]) []
+Inst libgmp10 [2:6.3.0+dfsg-3] (2:6.3.0+dfsg-4 kali-rolling [amd64])
+Conf libgmp10 (2:6.3.0+dfsg-4 kali-rolling [amd64])
+Inst sqv [1.3.0-2] (1.3.0-3 kali-rolling [amd64])
+Conf sqv (1.3.0-3 kali-rolling [amd64])
+Inst libc-bin [2.41-6] (2.41-12 kali-rolling [amd64])
+Conf libc-bin (2.41-12 kali-rolling [amd64])
+Inst login [1:4.16.0-2+really2.41-4] (1:4.16.0-2+really2.41.1-1 kali-rolling [amd64])
+Inst sensible-utils [0.0.25] (0.0.26 kali-rolling [all])
+Inst cron [3.0pl1-196] (3.0pl1-197 kali-rolling [amd64])
+Inst logsave [1.47.2-1+b1] (1.47.2-3+b3 kali-rolling [amd64])
+Inst libext2fs2t64 [1.47.2-1+b1] (1.47.2-3+b3 kali-rolling [amd64]) [e2fsprogs:amd64 on libext2fs2t64:amd64] [e2fsprogs:amd64 ]
+Conf libext2fs2t64 (1.47.2-3+b3 kali-rolling [amd64]) [e2fsprogs:amd64 ]
+Inst e2fsprogs [1.47.2-1+b1] (1.47.2-3+b3 kali-rolling [amd64])
+Inst firmware-sof-signed [2025.01-1] (2025.05-1 kali-rolling [all])
+Inst galera-4 [26.4.22-1] (26.4.23-1 kali-rolling [amd64])
+Inst libpng16-16t64 [1.6.48-1] (1.6.50-1 kali-rolling [amd64])
+Inst libxm4 [2.3.8-4] (2.3.8-5 kali-rolling [amd64]) []
+Inst libmotif-common [2.3.8-4] (2.3.8-5 kali-rolling [all])
+Inst mariadb-common [1:11.8.1-4] (1:11.8.3-1 kali-rolling [all])
+Inst liburing2 [2.9-1] (2.11-1 kali-rolling [amd64])
+Inst mariadb-server-compat [1:11.8.1-4] (1:11.8.3-1 kali-rolling [all]) []
+Inst mariadb-server-core [1:11.8.1-4] (1:11.8.3-1+b1 kali-rolling [amd64]) []
+Inst mariadb-client-core [1:11.8.1-4] (1:11.8.3-1+b1 kali-rolling [amd64]) []
+Conf mariadb-common (1:11.8.3-1 kali-rolling [all]) []
+Inst mariadb-server [1:11.8.1-4] (1:11.8.3-1+b1 kali-rolling [amd64]) []
+Inst mariadb-client [1:11.8.1-4] (1:11.8.3-1+b1 kali-rolling [amd64])
+Inst libmariadb3 [1:11.8.1-4] (1:11.8.3-1+b1 kali-rolling [amd64])
+Inst libbpf1 [1:1.5.0-3] (1:1.6.1-1 kali-rolling [amd64])
+Inst libcap2-bin [1:2.75-7] (1:2.75-10+b1 kali-rolling [amd64])
+Inst iproute2 [6.14.0-3] (6.16.0-1 kali-rolling [amd64])
+Inst rsync [3.4.1+ds1-3] (3.4.1+ds1-6~kali2 kali-rolling [amd64])
+Inst libcjson1 [1.7.18-3+b1] (1.7.18-3.1 kali-rolling [amd64])
+Inst mosquitto [2.0.21-1] (2.0.22-2 kali-rolling [amd64]) []
+Inst libmosquitto1 [2.0.21-1] (2.0.22-2 kali-rolling [amd64])
+Inst comerr-dev [2.1-1.47.2-1+b1] (2.1-1.47.2-3+b3 kali-rolling [amd64]) []
+Inst libcom-err2 [1.47.2-1+b1] (1.47.2-3+b3 kali-rolling [amd64])
+Inst ldap-utils [2.6.9+dfsg-2] (2.6.10+dfsg-1 kali-rolling [amd64]) []
+Inst libldap2 [2.6.9+dfsg-2] (2.6.10+dfsg-1 kali-rolling [amd64])
+Inst nfs-common [1:2.8.3-1] (1:2.8.3-1+b1 kali-rolling [amd64]) []
+Inst libnfsidmap1 [1:2.8.3-1] (1:2.8.3-1+b1 kali-rolling [amd64])
+Inst libproc2-0 [2:4.0.4-8] (2:4.0.4-9 kali-rolling [amd64])
+Inst procps [2:4.0.4-8] (2:4.0.4-9 kali-rolling [amd64])
+Inst ucf [3.0051] (3.0052 kali-rolling [all])
+Inst python3.13-dev [3.13.3-2] (3.13.6-1 kali-rolling [amd64]) []
+Inst libpython3.13-dev [3.13.3-2] (3.13.6-1 kali-rolling [amd64]) []
+Inst libpython3.13 [3.13.3-2] (3.13.6-1 kali-rolling [amd64]) []
+Inst python3-pip-whl [25.1.1+dfsg-1] (25.2+dfsg-1 kali-rolling [all]) []
+Inst python3-setuptools-whl [78.1.0-1.2] (78.1.1-0.1 kali-rolling [all]) []
+Inst python3.13-venv [3.13.3-2] (3.13.6-1 kali-rolling [amd64]) []
+Inst tzdata [2025b-3] (2025b-5 kali-rolling [all]) []
+Inst tzdata-legacy [2025b-3] (2025b-5 kali-rolling [all]) []
+Inst python3.13 [3.13.3-2] (3.13.6-1 kali-rolling [amd64]) []
+Inst python3.13-minimal [3.13.3-2] (3.13.6-1 kali-rolling [amd64]) []
+Inst libpython3.13-minimal [3.13.3-2] (3.13.6-1 kali-rolling [amd64]) [libpython3.13-stdlib:amd64 ]
+Inst libpython3.13-stdlib [3.13.3-2] (3.13.6-1 kali-rolling [amd64])
+Inst python3-venv [3.13.3-1] (3.13.5-1 kali-rolling [amd64]) []
+Inst libpython3-dev [3.13.3-1] (3.13.5-1 kali-rolling [amd64]) [python3-dev:amd64 ]
+Inst python3-dev [3.13.3-1] (3.13.5-1 kali-rolling [amd64]) []
+Conf libpython3.13-minimal (3.13.6-1 kali-rolling [amd64]) []
+Conf libexpat1 (2.7.1-2 kali-rolling [amd64]) []
+Conf python3.13-minimal (3.13.6-1 kali-rolling [amd64]) []
+Inst python3-minimal [3.13.3-1] (3.13.5-1 kali-rolling [amd64]) [python3:amd64 on python3-minimal:amd64] [python3:amd64 ]
+Conf python3-minimal (3.13.5-1 kali-rolling [amd64]) [python3:amd64 ]
+Inst python3 [3.13.3-1] (3.13.5-1 kali-rolling [amd64]) []
+Inst libpython3-stdlib [3.13.3-1] (3.13.5-1 kali-rolling [amd64])
+Inst redis-server [5:7.0.15-3] (5:8.0.2-3 kali-rolling [amd64]) []
+Inst redis-tools [5:7.0.15-3] (5:8.0.2-3 kali-rolling [amd64])
+Inst smbclient [2:4.22.1+dfsg-1] (2:4.22.4+dfsg-1 kali-rolling [amd64]) []
+Inst samba-dsdb-modules [2:4.22.1+dfsg-1] (2:4.22.4+dfsg-1 kali-rolling [amd64]) [samba-ad-dc:amd64 ]
+Inst python3-samba [2:4.22.1+dfsg-1] (2:4.22.4+dfsg-1 kali-rolling [amd64]) [samba-ad-dc:amd64 ]
+Inst samba-common-bin [2:4.22.1+dfsg-1] (2:4.22.4+dfsg-1 kali-rolling [amd64]) [samba:amd64 samba-ad-dc:amd64 winbind:amd64 ]
+Inst python3-ldb [2:2.11.0+samba4.22.1+dfsg-1] (2:2.11.0+samba4.22.4+dfsg-1 kali-rolling [amd64]) [samba:amd64 samba-ad-dc:amd64 winbind:amd64 ]
+Inst libldb2 [2:2.11.0+samba4.22.1+dfsg-1] (2:2.11.0+samba4.22.4+dfsg-1 kali-rolling [amd64]) [samba:amd64 samba-ad-dc:amd64 winbind:amd64 samba-libs:amd64 ]
+Inst libsmbclient0 [2:4.22.1+dfsg-1] (2:4.22.4+dfsg-1 kali-rolling [amd64]) [samba:amd64 samba-ad-dc:amd64 winbind:amd64 samba-libs:amd64 ]
+Inst samba-libs [2:4.22.1+dfsg-1] (2:4.22.4+dfsg-1 kali-rolling [amd64]) [samba:amd64 samba-ad-dc:amd64 winbind:amd64 ]
+Inst samba-ad-provision [2:4.22.1+dfsg-1] (2:4.22.4+dfsg-1 kali-rolling [all]) [samba:amd64 samba-ad-dc:amd64 winbind:amd64 ]
+Inst samba [2:4.22.1+dfsg-1] (2:4.22.4+dfsg-1 kali-rolling [amd64]) [samba-ad-dc:amd64 winbind:amd64 ]
+Inst samba-ad-dc [2:4.22.1+dfsg-1] (2:4.22.4+dfsg-1 kali-rolling [amd64]) [winbind:amd64 ]
+Inst libpam-winbind [2:4.22.1+dfsg-1] (2:4.22.4+dfsg-1 kali-rolling [amd64]) [winbind:amd64 ]
+Inst winbind [2:4.22.1+dfsg-1] (2:4.22.4+dfsg-1 kali-rolling [amd64]) [libnss-winbind:amd64 ]
+Inst libnss-winbind [2:4.22.1+dfsg-1] (2:4.22.4+dfsg-1 kali-rolling [amd64]) []
+Inst libunbound8 [1.22.0-1+b1] (1.23.1-1 kali-rolling [amd64]) []
+Inst libgnutls-dane0t64 [3.8.9-2] (3.8.9-3 kali-rolling [amd64]) []
+Inst libidn2-0 [2.3.8-2] (2.3.8-4 kali-rolling [amd64]) []
+Inst libgnutls30t64 [3.8.9-2] (3.8.9-3 kali-rolling [amd64]) []
+Inst libtalloc2 [2:2.4.3+samba4.22.1+dfsg-1] (2:2.4.3+samba4.22.4+dfsg-1 kali-rolling [amd64]) []
+Inst libtevent0t64 [2:0.16.2+samba4.22.1+dfsg-1] (2:0.16.2+samba4.22.4+dfsg-1 kali-rolling [amd64]) []
+Inst libcups2t64 [2.4.10-2+b1] (2.4.10-3 kali-rolling [amd64]) []
+Inst libtdb1 [2:1.4.13+samba4.22.1+dfsg-1] (2:1.4.13+samba4.22.4+dfsg-1 kali-rolling [amd64]) []
+Inst libwbclient0 [2:4.22.1+dfsg-1] (2:4.22.4+dfsg-1 kali-rolling [amd64])
+Inst samba-common [2:4.22.1+dfsg-1] (2:4.22.4+dfsg-1 kali-rolling [all])
+Inst libicu76 [76.1-3] (76.1-4 kali-rolling [amd64])
+Inst python3-tdb [2:1.4.13+samba4.22.1+dfsg-1] (2:1.4.13+samba4.22.4+dfsg-1 kali-rolling [amd64])
+Inst python3-talloc [2:2.4.3+samba4.22.1+dfsg-1] (2:2.4.3+samba4.22.4+dfsg-1 kali-rolling [amd64])
+Inst strongswan-starter [6.0.1-1] (6.0.2-1 kali-rolling [amd64]) []
+Inst strongswan-libcharon [6.0.1-1] (6.0.2-1 kali-rolling [amd64]) []
+Inst strongswan-charon [6.0.1-1] (6.0.2-1 kali-rolling [amd64]) []
+Inst libcharon-extauth-plugins [6.0.1-1] (6.0.2-1 kali-rolling [amd64]) []
+Inst libstrongswan [6.0.1-1] (6.0.2-1 kali-rolling [amd64]) [libstrongswan-standard-plugins:amd64 ]
+Inst libstrongswan-standard-plugins [6.0.1-1] (6.0.2-1 kali-rolling [amd64])
+Inst sudo [1.9.16p2-2] (1.9.17p2-1 kali-rolling [amd64])
+Inst tasksel-data [3.80+kali1] (3.82+kali1 kali-rolling [all]) []
+Inst tasksel [3.80+kali1] (3.82+kali1 kali-rolling [all])
+Inst libdebconfclient0 [0.278] (0.280 kali-rolling [amd64])
+Conf libdebconfclient0 (0.280 kali-rolling [amd64])
+Inst cron-daemon-common [3.0pl1-196] (3.0pl1-197 kali-rolling [all])
+Inst dhcpcd-base [1:10.1.0-10] (1:10.2.4-3 kali-rolling [amd64])
+Inst iputils-ping [3:20240905-3] (3:20250605-1 kali-rolling [amd64])
+Inst linux-sysctl-defaults [4.11] (4.14 kali-rolling [all])
+Inst nftables [1.1.2-1] (1.1.3-1 kali-rolling [amd64]) []
+Inst libnftables1 [1.1.2-1] (1.1.3-1 kali-rolling [amd64])
+Inst gettext-base [0.23.1-2] (0.23.1-2+b1 kali-rolling [amd64])
+Inst groff-base [1.23.0-8] (1.23.0-9 kali-rolling [amd64])
+Inst inetutils-telnet [2:2.6-1] (2:2.6-4 kali-rolling [amd64])
+Inst libc-l10n [2.41-6] (2.41-12 kali-rolling [all])
+Inst locales [2.41-6] (2.41-12 kali-rolling [all])
+Inst pci.ids [0.0~2025.03.09-1] (0.0~2025.07.11-1 kali-rolling [all])
+Inst pciutils [1:3.13.0-2] (1:3.14.0-1 kali-rolling [amd64]) []
+Inst libpci3 [1:3.13.0-2] (1:3.14.0-1 kali-rolling [amd64])
+Inst 7zip [24.09+dfsg-7] (25.01+dfsg-2 kali-rolling [amd64])
+Inst libgdk-pixbuf2.0-common [2.42.12+dfsg-2] (2.42.12+dfsg-5 kali-rolling [all])
+Inst libglib2.0-data [2.84.1-2] (2.84.4-3 kali-rolling [all])
+Inst libglib2.0-bin [2.84.1-2] (2.84.4-3 kali-rolling [amd64]) []
+Inst gir1.2-glib-2.0 [2.84.1-2] (2.84.4-3 kali-rolling [amd64]) []
+Inst libglib2.0-0t64 [2.84.1-2] (2.84.4-3 kali-rolling [amd64])
+Inst libtiff6 [4.7.0-3] (4.7.0-4 kali-rolling [amd64])
+Inst libgdk-pixbuf-2.0-0 [2.42.12+dfsg-2] (2.42.12+dfsg-5 kali-rolling [amd64])
+Inst gtk-update-icon-cache [4.18.5+ds-1] (4.18.6+ds-2 kali-rolling [amd64])
+Inst adwaita-icon-theme [48.0-1] (48.1-1 kali-rolling [all])
+Inst arping [2.25-1] (2.26-1 kali-rolling [amd64])
+Inst at-spi2-common [2.56.2-1] (2.57.1-1 kali-rolling [all])
+Inst gir1.2-atk-1.0 [2.56.2-1] (2.57.1-1 kali-rolling [amd64]) []
+Inst libatk-bridge2.0-0t64 [2.56.2-1] (2.57.1-1 kali-rolling [amd64]) []
+Inst libatk1.0-0t64 [2.56.2-1] (2.57.1-1 kali-rolling [amd64]) []
+Inst gir1.2-atspi-2.0 [2.56.2-1] (2.57.1-1 kali-rolling [amd64]) []
+Inst at-spi2-core [2.56.2-1] (2.57.1-1 kali-rolling [amd64]) []
+Inst libatspi2.0-0t64 [2.56.2-1] (2.57.1-1 kali-rolling [amd64])
+Inst gsettings-desktop-schemas [48.0-1] (49~beta-1 kali-rolling [all])
+Inst atril-common [1.26.2-4] (1.26.2-5 kali-rolling [all])
+Inst bluez [5.82-1] (5.82-1.1 kali-rolling [amd64])
+Inst bluez-hcidump [5.82-1] (5.82-1.1 kali-rolling [amd64])
+Inst libnss3 [2:3.110-1] (2:3.114-1 kali-rolling [amd64])
+Inst libcamel-1.2-64t64 [3.56.1-2] (3.56.2-3 kali-rolling [amd64])
+Inst libebook-contacts-1.2-4t64 [3.56.1-2] (3.56.2-3 kali-rolling [amd64])
+Inst bluez-obexd [5.82-1] (5.82-1.1 kali-rolling [amd64])
+Inst burpsuite [2025.3.4-0kali1] (2025.7.4-0kali1 kali-rolling [amd64])
+Inst busybox [1:1.37.0-4] (1:1.37.0-6+b3 kali-rolling [amd64])
+Inst python3-soupsieve [2.7-1] (2.7-2 kali-rolling [all])
+Inst python3-typing-extensions [4.13.2-1] (4.14.1-1 kali-rolling [all])
+Inst python3-bs4 [4.13.4-1] (4.13.4-4 kali-rolling [all])
+Inst python3-openssl [25.0.0-1] (25.1.0-1 kali-rolling [all])
+Inst certipy-ad [5.0.2-0kali1] (5.0.3-0kali1 kali-rolling [all])
+Inst cifs-utils [2:7.3-1] (2:7.4-1 kali-rolling [amd64])
+Inst cryptcat [20031202-5kali7] (20031202-5kali8 kali-rolling [amd64])
+Inst libargon2-1 [0~20190702+dfsg-4+b2] (0~20190702+dfsg-5 kali-rolling [amd64])
+Inst cryptsetup-initramfs [2:2.7.5-2] (2:2.8.1-1 kali-rolling [all]) []
+Inst libcryptsetup12 [2:2.7.5-2] (2:2.8.1-1 kali-rolling [amd64]) []
+Inst cryptsetup-bin [2:2.7.5-2] (2:2.8.1-1 kali-rolling [amd64]) []
+Inst cryptsetup [2:2.7.5-2] (2:2.8.1-1 kali-rolling [amd64])
+Inst libnghttp2-14 [1.64.0-1.1] (1.64.0-1.1+b1 kali-rolling [amd64])
+Inst librtmp1 [2.4+20151223.gitfa8646d.1-2+b5] (2.4+20151223.gitfa8646d.1-3 kali-rolling [amd64])
+Inst curl [8.14.1-2] (8.15.0-1 kali-rolling [amd64]) []
+Inst libcurl4t64 [8.14.1-2] (8.15.0-1 kali-rolling [amd64])
+Inst fonts-firacode [6.2-2] (6.2-3 kali-rolling [all])
+Inst kali-defaults [2025.2.4] (2025.3.2 kali-rolling [all])
+Inst libxkbcommon-x11-0 [1.7.0-2] (1.7.0-2.1 kali-rolling [amd64]) []
+Inst libxkbcommon0 [1.7.0-2] (1.7.0-2.1 kali-rolling [amd64])
+Inst libplymouth5 [24.004.60-4] (24.004.60-5 kali-rolling [amd64])
+Inst plymouth-label [24.004.60-4] (24.004.60-5 kali-rolling [amd64]) []
+Inst plymouth [24.004.60-4] (24.004.60-5 kali-rolling [amd64])
+Inst kali-themes [2025.2.5] (2025.3.2 kali-rolling [all]) []
+Inst kali-desktop-base [2025.2.5] (2025.3.2 kali-rolling [all]) []
+Inst kali-themes-common [2025.2.5] (2025.3.2 kali-rolling [all])
+Inst desktop-base [13.0.2+kali1] (13.0.3+kali1 kali-rolling [all])
+Inst libgpg-error-l10n [1.51-4] (1.55-2 kali-rolling [all])
+Inst libgpg-error0 [1.51-4] (1.55-2 kali-rolling [amd64])
+Inst libgcrypt20 [1.11.0-7] (1.11.2-2 kali-rolling [amd64])
+Inst gnupg-utils [2.4.7-17] (2.4.8-2 kali-rolling [amd64])
+Inst gpg-wks-client [2.4.7-17] (2.4.8-2 kali-rolling [amd64]) []
+Inst dirmngr [2.4.7-17] (2.4.8-2 kali-rolling [amd64]) [gnupg:amd64 ]
+Inst gpg-agent [2.4.7-17] (2.4.8-2 kali-rolling [amd64]) [gnupg:amd64 ]
+Inst gpg [2.4.7-17] (2.4.8-2 kali-rolling [amd64]) [gnupg:amd64 ]
+Inst gpgconf [2.4.7-17] (2.4.8-2 kali-rolling [amd64]) [gnupg:amd64 gpgsm:amd64 ]
+Inst gnupg [2.4.7-17] (2.4.8-2 kali-rolling [all]) [gpgsm:amd64 ]
+Inst gpgsm [2.4.7-17] (2.4.8-2 kali-rolling [amd64]) []
+Inst pinentry-curses [1.3.1-2] (1.3.2-3 kali-rolling [amd64]) []
+Inst pinentry-gnome3 [1.3.1-2] (1.3.2-3 kali-rolling [amd64]) []
+Inst gnupg-l10n [2.4.7-17] (2.4.8-2 kali-rolling [all])
+Inst distro-info-data [0.64] (0.66 kali-rolling [all])
+Inst dns-root-data [2024071801] (2025080400 kali-rolling [all])
+Inst dpkg-dev [1.22.18+kali1] (1.22.21+kali1 kali-rolling [all]) []
+Inst libdpkg-perl [1.22.18+kali1] (1.22.21+kali1 kali-rolling [all])
+Inst patch [2.8-1] (2.8-2 kali-rolling [amd64])
+Inst dracut-install [106-6] (108-3 kali-rolling [amd64])
+Inst dvisvgm [3.4.4+ds-1] (3.5+ds-1 kali-rolling [amd64])
+Inst texlive-binaries [2024.20240313.70630+ds-6] (2025.20250727.75242+ds-4 kali-rolling [amd64]) []
+Inst libptexenc1 [2024.20240313.70630+ds-6] (2025.20250727.75242+ds-4 kali-rolling [amd64]) []
+Inst libsynctex2 [2024.20240313.70630+ds-6] (2025.20250727.75242+ds-4 kali-rolling [amd64]) []
+Inst libtexlua53-5 [2024.20240313.70630+ds-6] (2025.20250727.75242+ds-4 kali-rolling [amd64]) []
+Inst libgraphite2-3 [1.3.14-2+b1] (1.3.14-3 kali-rolling [amd64]) []
+Inst libkpathsea6 [2024.20240313.70630+ds-6] (2025.20250727.75242+ds-4 kali-rolling [amd64])
+Inst openssl [3.5.0-1] (3.5.2-1 kali-rolling [amd64])
+Inst easy-rsa [3.2.2-1] (3.2.3-1 kali-rolling [all])
+Inst emacsen-common [3.0.7] (3.0.8 kali-rolling [all])
+Inst engrampa [1.26.2-4] (1.26.2-5 kali-rolling [amd64]) []
+Inst engrampa-common [1.26.2-4] (1.26.2-5 kali-rolling [all])
+Inst libgtk-3-common [3.24.49-3] (3.24.50-1 kali-rolling [all])
+Inst libgtk-3-0t64 [3.24.49-3] (3.24.50-1 kali-rolling [amd64])
+Inst libcaja-extension1 [1.26.4-1] (1.26.4-1+b1 kali-rolling [amd64])
+Inst libjson-glib-1.0-common [1.10.6+ds-2] (1.10.6+ds-3 kali-rolling [all])
+Inst libjson-glib-1.0-0 [1.10.6+ds-2] (1.10.6+ds-3 kali-rolling [amd64])
+Inst ethtool [1:6.14-1] (1:6.15-2 kali-rolling [amd64])
+Inst evolution-data-server-common [3.56.1-2] (3.56.2-3 kali-rolling [all])
+Inst exfatprogs [1.2.8-1] (1.2.9-1 kali-rolling [amd64])
+Inst exploitdb [20250522-0kali1] (20250819-0kali1 kali-rolling [all])
+Inst libfakeroot [1.37.1.1-1] (1.37.1.2-1 kali-rolling [amd64])
+Inst fakeroot [1.37.1.1-1] (1.37.1.2-1 kali-rolling [amd64])
+Inst kali-menu [2025.2.7] (2025.3.0 kali-rolling [all])
+Inst python3-apispec [6.8.1-1] (6.8.2-1 kali-rolling [all])
+Inst python3-kombu [5.5.3-1] (5.5.4-1 kali-rolling [all])
+Inst python3-pytz [2025.2-2] (2025.2-3 kali-rolling [all])
+Inst python3-tz [2025.2-2] (2025.2-3 kali-rolling [all])
+Inst python3-click-plugins [1.1.1-5] (1.1.1.2-1 kali-rolling [all])
+Inst python3-celery [5.5.2-2] (5.5.3-1 kali-rolling [all])
+Inst python3-faraday-agent-parameters-types [1.7.2-0kali1] (1.8.1-0kali1 kali-rolling [all])
+Inst python3-tldextract [5.1.2-1] (5.1.2-2 kali-rolling [all])
+Inst python3-faraday-plugins [1.23.0-0kali1] (1.25.0-0kali1 kali-rolling [all])
+Inst python3-jwt [2.10.1-2] (2.10.1-3 kali-rolling [all])
+Inst python3-sqlalchemy-ext [2.0.40+ds1-1] (2.0.43+ds1-1 kali-rolling [amd64]) []
+Inst python3-sqlalchemy [2.0.40+ds1-1] (2.0.43+ds1-1 kali-rolling [all])
+Inst python3-marshmallow-sqlalchemy [1.4.1-1] (1.4.2-1 kali-rolling [all])
+Inst python3-redis [5.2.1-1] (6.1.0-2 kali-rolling [all])
+Inst gir1.2-gdkpixbuf-2.0 [2.42.12+dfsg-2] (2.42.12+dfsg-5 kali-rolling [amd64])
+Inst gir1.2-gtk-3.0 [3.24.49-3] (3.24.50-1 kali-rolling [amd64])
+Inst libvte-2.91-0 [0.80.1-1] (0.80.3-2 kali-rolling [amd64]) []
+Inst libvte-2.91-common [0.80.1-1] (0.80.3-2 kali-rolling [amd64])
+Inst gir1.2-vte-2.91 [0.80.1-1] (0.80.3-2 kali-rolling [amd64])
+Inst zsh [5.9-8+b9] (5.9-8+b14 kali-rolling [amd64])
+Inst faraday [5.14.0-0kali1] (5.15.3-0kali1 kali-rolling [all])
+Inst ffuf [2.1.0-1+b8] (2.1.0-1+b9 kali-rolling [amd64])
+Inst libfbclient2 [4.0.5.3140.ds6-17] (4.0.6.3221.ds6-1 kali-rolling [amd64]) []
+Inst firebird4.0-common [4.0.5.3140.ds6-17] (4.0.6.3221.ds6-1 kali-rolling [all]) []
+Inst firebird4.0-common-doc [4.0.5.3140.ds6-17] (4.0.6.3221.ds6-1 kali-rolling [all])
+Inst libusb-1.0-0 [2:1.0.28-1] (2:1.0.29-2 kali-rolling [amd64])
+Inst libftdi1-2 [1.5-10] (1.5-11 kali-rolling [amd64])
+Inst flashrom [1.4.0-3] (1.6.0-2 kali-rolling [amd64])
+Inst fonts-hack [3.003-3] (3.003-4 kali-rolling [all])
+Inst fonts-noto-color-emoji [2.047-1] (2.048-1 kali-rolling [all])
+Inst libswresample5 [7:7.1.1-1+b1] (7:7.1.1-1+b5 kali-rolling [amd64])
+Inst freerdp3-x11 [3.15.0+dfsg-2.1kali1] (3.16.0+dfsg-2+kali1 kali-rolling [amd64]) []
+Inst libfreerdp-client3-3 [3.15.0+dfsg-2.1kali1] (3.16.0+dfsg-2+kali1 kali-rolling [amd64]) []
+Inst libfreerdp3-3 [3.15.0+dfsg-2.1kali1] (3.16.0+dfsg-2+kali1 kali-rolling [amd64]) []
+Inst libwinpr3-3 [3.15.0+dfsg-2.1kali1] (3.16.0+dfsg-2+kali1 kali-rolling [amd64])
+Inst fuse3 [3.17.2-1] (3.17.4-1 kali-rolling [amd64]) []
+Inst libfuse3-4 [3.17.2-1] (3.17.4-1 kali-rolling [amd64])
+Inst freetds-common [1.3.17+ds-2] (1.5.4+ds-1 kali-rolling [all])
+Inst gcr4 [4.4.0.1-3] (4.4.0.1-5 kali-rolling [amd64]) []
+Inst libgcr-4-4 [4.4.0.1-3] (4.4.0.1-5 kali-rolling [amd64]) []
+Inst libgck-2-2 [4.4.0.1-3] (4.4.0.1-5 kali-rolling [amd64])
+Inst libgtk-4-common [4.18.5+ds-1] (4.18.6+ds-2 kali-rolling [all])
+Inst libgtk-4-1 [4.18.5+ds-1] (4.18.6+ds-2 kali-rolling [amd64])
+Inst gdal-data [3.10.3+dfsg-1] (3.10.3+dfsg-2 kali-rolling [all])
+Inst gdal-plugins [3.10.3+dfsg-1] (3.10.3+dfsg-2+b1 kali-rolling [amd64])
+Inst libgstreamer1.0-0 [1.26.1-1] (1.26.5-2 kali-rolling [amd64])
+Inst gir1.2-gstreamer-1.0 [1.26.1-1] (1.26.5-2 kali-rolling [amd64])
+Inst libhandy-1-0 [1.8.3-2] (1.8.3-3 kali-rolling [amd64])
+Inst gir1.2-handy-1 [1.8.3-2] (1.8.3-3 kali-rolling [amd64])
+Inst network-manager-l10n [1.52.0-6] (1.54.0-4 kali-rolling [all])
+Inst libbluetooth3 [5.82-1] (5.82-1.1 kali-rolling [amd64])
+Inst libcurl3t64-gnutls [8.14.1-2] (8.15.0-1 kali-rolling [amd64])
+Inst libmm-glib0 [1.24.0-1] (1.24.2-1 kali-rolling [amd64])
+Inst network-manager [1.52.0-6] (1.54.0-4 kali-rolling [amd64]) []
+Inst libnm0 [1.52.0-6] (1.54.0-4 kali-rolling [amd64])
+Inst gir1.2-nm-1.0 [1.52.0-6] (1.54.0-4 kali-rolling [amd64])
+Inst git [1:2.47.2-0.1] (1:2.50.1-0.1 kali-rolling [amd64]) []
+Inst git-man [1:2.47.2-0.1] (1:2.50.1-0.1 kali-rolling [all])
+Inst gnome-disk-utility [46.1-2] (46.1-2+b1 kali-rolling [amd64])
+Inst gnome-keyring [48.0-1] (48.0-3 kali-rolling [amd64])
+Inst gnome-keyring-pkcs11 [48.0-1] (48.0-3 kali-rolling [amd64])
+Inst gnutls-bin [3.8.9-2] (3.8.9-3 kali-rolling [amd64])
+Inst go-l2tp [0.1.8-1+b9] (0.1.8-1+b10 kali-rolling [amd64])
+Inst gobuster [3.6.0-1+b9] (3.8.0-2 kali-rolling [amd64])
+Inst gparted [1.6.0-1] (1.6.0-2 kali-rolling [amd64]) []
+Inst gparted-common [1.6.0-1] (1.6.0-2 kali-rolling [all])
+Inst gpgv [2.4.7-17] (2.4.8-2 kali-rolling [amd64])
+Inst grub2-common [2.12-7+kali1] (2.12-9+kali1 kali-rolling [amd64]) [grub-pc:amd64 ]
+Inst grub-pc [2.12-7+kali1] (2.12-9+kali1 kali-rolling [amd64]) []
+Inst grub-pc-bin [2.12-7+kali1] (2.12-9+kali1 kali-rolling [amd64]) []
+Inst libefivar1t64 [38-3.1+b1] (39-2 kali-rolling [amd64]) []
+Inst libefiboot1t64 [38-3.1+b1] (39-2 kali-rolling [amd64]) []
+Inst grub-common [2.12-7+kali1] (2.12-9+kali1 kali-rolling [amd64])
+Inst libgstreamer-plugins-base1.0-0 [1.26.1-1] (1.26.5-2 kali-rolling [amd64])
+Inst libgstreamer-gl1.0-0 [1.26.1-1] (1.26.5-2 kali-rolling [amd64])
+Inst gstreamer1.0-gl [1.26.1-1] (1.26.5-2 kali-rolling [amd64])
+Inst gstreamer1.0-libav [1.26.1-1] (1.26.5-2 kali-rolling [amd64])
+Inst libogg0 [1.3.5-3+b2] (1.3.6-1 kali-rolling [amd64])
+Inst gstreamer1.0-plugins-base [1.26.1-1] (1.26.5-2 kali-rolling [amd64])
+Inst gstreamer1.0-x [1.26.1-1] (1.26.5-2 kali-rolling [amd64])
+Inst libhwloc15 [2.12.0-4] (2.12.0-4+b1 kali-rolling [amd64])
+Inst hwloc [2.12.0-4] (2.12.0-4+b1 kali-rolling [amd64])
+Inst iio-sensor-proxy [3.7-2] (3.7-3 kali-rolling [amd64])
+Inst libigdgmm12 [22.7.1+ds1-1] (22.8.1+ds1-1 kali-rolling [amd64])
+Inst intel-media-va-driver [25.2.1+dfsg1-1] (25.3.0+dfsg1-1 kali-rolling [amd64])
+Inst ipp-usb [0.9.23-2+b6] (0.9.23-2+b7 kali-rolling [amd64])
+Inst isympy-common [1.13.3-5] (1.14.0-2 kali-rolling [all])
+Inst python3-sympy [1.13.3-5] (1.14.0-2 kali-rolling [all])
+Inst isympy3 [1.13.3-5] (1.14.0-2 kali-rolling [all])
+Inst john [1.9.0-Jumbo-1+git20211102-0kali9] (1.9.0-Jumbo-1+git20211102-0kali10 kali-rolling [amd64]) []
+Inst john-data [1.9.0-Jumbo-1+git20211102-0kali9] (1.9.0-Jumbo-1+git20211102-0kali10 kali-rolling [all])
+Inst kali-defaults-desktop [2025.2.4] (2025.3.2 kali-rolling [all])
+Inst kali-desktop-core [2025.2.10] (2025.3.2 kali-rolling [amd64])
+Inst xfce4-screensaver [4.18.4-1] (4.20.0-1 kali-rolling [amd64])
+Inst thunar [4.20.2-1] (4.20.4-1 kali-rolling [amd64]) []
+Inst thunar-data [4.20.2-1] (4.20.4-1 kali-rolling [all])
+Inst libthunarx-3-0 [4.20.2-1] (4.20.4-1 kali-rolling [amd64])
+Inst xfce4 [4.20] (4.20.1 kali-rolling [all])
+Inst libqt5core5t64 [5.15.15+dfsg-5] (5.15.15+dfsg-6 kali-rolling [amd64])
+Inst libqt5dbus5t64 [5.15.15+dfsg-5] (5.15.15+dfsg-6 kali-rolling [amd64])
+Inst libqt5network5t64 [5.15.15+dfsg-5] (5.15.15+dfsg-6 kali-rolling [amd64])
+Inst libqt5gui5t64 [5.15.15+dfsg-5] (5.15.15+dfsg-6 kali-rolling [amd64])
+Inst libqt5widgets5t64 [5.15.15+dfsg-5] (5.15.15+dfsg-6 kali-rolling [amd64])
+Inst qt5ct [1.8-2+b1] (1.9-1 kali-rolling [amd64])
+Inst libnma-gtk4-0 [1.10.6-5] (1.10.6-7 kali-rolling [amd64]) []
+Inst libnma0 [1.10.6-5] (1.10.6-7 kali-rolling [amd64]) []
+Inst libnma-common [1.10.6-5] (1.10.6-7 kali-rolling [all])
+Inst network-manager-gnome [1.36.0-3+b1] (1.36.0-4 kali-rolling [amd64]) []
+Inst network-manager-applet [1.36.0-3+b1] (1.36.0-4 kali-rolling [amd64]) []
+Inst nm-connection-editor [1.36.0-3+b1] (1.36.0-4 kali-rolling [amd64])
+Inst pipewire-pulse [1.4.2-1] (1.4.7-3+b1 kali-rolling [amd64]) []
+Inst pipewire-bin [1.4.2-1] (1.4.7-3+b1 kali-rolling [amd64]) [pipewire:amd64 ]
+Inst libpipewire-0.3-0t64 [1.4.2-1] (1.4.7-3+b1 kali-rolling [amd64]) [pipewire:amd64 libpipewire-0.3-modules:amd64 ]
+Inst libspa-0.2-bluetooth [1.4.2-1] (1.4.7-3+b1 kali-rolling [amd64]) [pipewire:amd64 libpipewire-0.3-modules:amd64 ]
+Inst libspa-0.2-modules [1.4.2-1] (1.4.7-3+b1 kali-rolling [amd64]) [pipewire:amd64 libpipewire-0.3-modules:amd64 ]
+Inst pipewire [1.4.2-1] (1.4.7-3+b1 kali-rolling [amd64]) [libpipewire-0.3-modules:amd64 ]
+Inst libpipewire-0.3-modules [1.4.2-1] (1.4.7-3+b1 kali-rolling [amd64])
+Inst liblua5.4-0 [5.4.7-1+b2] (5.4.8-1 kali-rolling [amd64])
+Inst wireplumber [0.5.8-2] (0.5.10-3 kali-rolling [amd64]) []
+Inst libwireplumber-0.5-0 [0.5.8-2] (0.5.10-3 kali-rolling [amd64])
+Inst kali-desktop-xfce [2025.2.10] (2025.3.2 kali-rolling [all])
+Inst kali-system-core [2025.2.10] (2025.3.2 kali-rolling [amd64])
+Inst kali-linux-core [2025.2.10] (2025.3.2 kali-rolling [amd64])
+Inst kali-system-cli [2025.2.10] (2025.3.2 kali-rolling [amd64])
+Inst tightvncpasswd [1:1.3.10-9] (1:1.3.10-10 kali-rolling [amd64])
+Inst tightvncserver [1:1.3.10-9] (1:1.3.10-10 kali-rolling [amd64])
+Inst xtightvncviewer [1:1.3.10-9] (1:1.3.10-10 kali-rolling [amd64])
+Inst kali-system-gui [2025.2.10] (2025.3.2 kali-rolling [amd64])
+Inst metasploit-framework [6.4.64-0kali1] (6.4.84-0kali1 kali-rolling [amd64])
+Inst python3-importlib-metadata [8.7.0-1] (8.7.0-2 kali-rolling [all])
+Inst python3-typeguard [4.4.2-1] (4.4.4-1 kali-rolling [all])
+Inst python3-pkg-resources [78.1.0-1.2] (78.1.1-0.1 kali-rolling [all]) [python3-setuptools:amd64 ]
+Inst python3-setuptools [78.1.0-1.2] (78.1.1-0.1 kali-rolling [all])
+Inst responder [3.1.6.0-0kali1] (3.1.7.0-0kali1 kali-rolling [all])
+Inst sqlmap [1.9.4-1] (1.9.8-1 kali-rolling [all])
+Inst kali-tools-top10 [2025.2.10] (2025.3.2 kali-rolling [amd64])
+Inst ophcrack [3.8.0-3+b3] (3.8.0-4 kali-rolling [amd64])
+Inst ophcrack-cli [3.8.0-3+b3] (3.8.0-4 kali-rolling [amd64])
+Inst kali-linux-default [2025.2.10] (2025.3.2 kali-rolling [amd64])
+Inst kali-linux-firmware [2025.2.10] (2025.3.2 kali-rolling [amd64])
+Inst libabsl20240722 [20240722.0-3] (20240722.0-4 kali-rolling [amd64])
+Inst libaec0 [1.1.3-1+b1] (1.1.4-2 kali-rolling [amd64])
+Inst libass9 [1:0.17.3-1+b1] (1:0.17.4-2 kali-rolling [amd64])
+Inst libatasmart4 [0.19-5+b2] (0.19-6 kali-rolling [amd64])
+Inst libatk-wrapper-java [0.40.0-3] (0.42.1-1 kali-rolling [all])
+Inst libatk-wrapper-java-jni [0.40.0-3+b3] (0.42.1-1 kali-rolling [amd64])
+Inst libyuv0 [0.0.1904.20250204-1] (0.0.1916.20250814-1 kali-rolling [amd64])
+Inst libavif16 [1.2.1-1.1] (1.3.0-1 kali-rolling [amd64])
+Inst libblas3 [3.12.1-2] (3.12.1-6 kali-rolling [amd64])
+Inst libblockdev-utils3 [3.3.0-2] (3.3.1-3 kali-rolling [amd64])
+Inst libvolume-key1 [0.3.12-9] (0.3.12-10 kali-rolling [amd64])
+Inst libblockdev-crypto3 [3.3.0-2] (3.3.1-3 kali-rolling [amd64])
+Inst libblockdev-fs3 [3.3.0-2] (3.3.1-3 kali-rolling [amd64])
+Inst libblockdev-loop3 [3.3.0-2] (3.3.1-3 kali-rolling [amd64])
+Inst libbytesize1 [2.11-2] (2.11-3 kali-rolling [amd64]) []
+Inst libbytesize-common [2.11-2] (2.11-3 kali-rolling [all])
+Inst libblockdev-mdraid3 [3.3.0-2] (3.3.1-3 kali-rolling [amd64])
+Inst libnvme1t64 [1.13-2] (1.15-2 kali-rolling [amd64])
+Inst libblockdev-nvme3 [3.3.0-2] (3.3.1-3 kali-rolling [amd64])
+Inst libblockdev-part3 [3.3.0-2] (3.3.1-3 kali-rolling [amd64])
+Inst libblockdev-swap3 [3.3.0-2] (3.3.1-3 kali-rolling [amd64])
+Inst libblockdev3 [3.3.0-2] (3.3.1-3 kali-rolling [amd64])
+Inst libbson-1.0-0t64 [1.30.3-1] (1.30.4-1 kali-rolling [amd64])
+Inst libclang-rt-18-dev [1:18.1.8-18] (1:18.1.8-18+b2 kali-rolling [amd64])
+Inst libclang-rt-19-dev [1:19.1.7-3] (1:19.1.7-3+b2 kali-rolling [amd64])
+Inst libcommons-logging-java [1.3.0-1] (1.3.0-2 kali-rolling [all])
+Inst libct4 [1.3.17+ds-2+b5] (1.5.4+ds-1 kali-rolling [amd64])
+Inst libctf-nobfd0 [2.44-3] (2.45-4 kali-rolling [amd64])
+Inst libdate-manip-perl [6.97-1] (6.98-1 kali-rolling [all])
+Inst libdatrie1 [0.2.13-3+b1] (0.2.13-4 kali-rolling [amd64])
+Inst libde265-0 [1.0.15-1+b3] (1.0.16-1 kali-rolling [amd64])
+Inst libdecor-0-plugin-1-gtk [0.2.2-2] (0.2.3-3 kali-rolling [amd64]) []
+Inst libdecor-0-0 [0.2.2-2] (0.2.3-3 kali-rolling [amd64])
+Inst libdigest-bubblebabble-perl [0.02-2.1] (0.02-3 kali-rolling [all])
+Inst libdjvulibre-text [3.5.28-2] (3.5.28-2.2 kali-rolling [all])
+Inst libdjvulibre21 [3.5.28-2+b2] (3.5.28-2.2 kali-rolling [amd64])
+Inst libdnnl3.6 [3.7.2+ds-2] (3.8.1+ds-1 kali-rolling [amd64])
+Inst libsoup-3.0-common [3.6.5-1] (3.6.5-3 kali-rolling [all])
+Inst libsoup-3.0-0 [3.6.5-1] (3.6.5-3 kali-rolling [amd64])
+Inst libebackend-1.2-11t64 [3.56.1-2] (3.56.2-3 kali-rolling [amd64])
+Inst libedata-book-1.2-27t64 [3.56.1-2] (3.56.2-3 kali-rolling [amd64])
+Inst libfido2-1 [1.15.0-1+b1] (1.16.0-2 kali-rolling [amd64])
+Inst libflashrom1 [1.4.0-3] (1.6.0-2 kali-rolling [amd64])
+Inst libgdk-pixbuf2.0-bin [2.42.12+dfsg-2] (2.42.12+dfsg-5 kali-rolling [amd64])
+Inst libgoa-1.0-common [3.54.2-1] (3.54.5-1 kali-rolling [all])
+Inst libgoa-1.0-0b [3.54.2-1] (3.54.5-1+b1 kali-rolling [amd64])
+Inst libgphoto2-port12t64 [2.5.31-4] (2.5.31-4+b2 kali-rolling [amd64])
+Inst libgssdp-1.6-0 [1.6.3-2] (1.6.4-1 kali-rolling [amd64])
+Inst libgtk-3-bin [3.24.49-3] (3.24.50-1 kali-rolling [amd64])
+Inst libgtk-4-bin [4.18.5+ds-1] (4.18.6+ds-2 kali-rolling [amd64])
+Inst libgtk-4-media-gstreamer [4.18.5+ds-1] (4.18.6+ds-2 kali-rolling [amd64])
+Inst libgtk-layer-shell0 [0.9.0-2] (0.9.2-2 kali-rolling [amd64])
+Inst libgtksourceview-4-common [4.8.4-6] (4.8.4-7 kali-rolling [all])
+Inst libheif-plugin-x265 [1.19.8-1] (1.20.2-2 kali-rolling [amd64]) []
+Inst libheif-plugin-aomenc [1.19.8-1] (1.20.2-2 kali-rolling [amd64]) []
+Inst libheif-plugin-dav1d [1.19.8-1] (1.20.2-2 kali-rolling [amd64]) [libheif1:amd64 ]
+Inst libheif1 [1.19.8-1] (1.20.2-2 kali-rolling [amd64]) [libheif-plugin-libde265:amd64 ]
+Inst libheif-plugin-libde265 [1.19.8-1] (1.20.2-2 kali-rolling [amd64])
+Inst libhidapi-hidraw0 [0.14.0-1+b2] (0.15.0-2 kali-rolling [amd64])
+Inst libhunspell-1.7-0 [1.7.2+really1.7.2-10+b4] (1.7.2+really1.7.2-11 kali-rolling [amd64])
+Inst libidn12 [1.43-1] (1.43-2 kali-rolling [amd64])
+Inst libijs-0.35 [0.35-15.2] (0.35-15.3 kali-rolling [amd64])
+Inst libimobiledevice-glue-1.0-0 [1.3.1-1] (1.3.2-2 kali-rolling [amd64])
+Inst libinih1 [59-1] (61-1 kali-rolling [amd64])
+Inst libinireader0 [59-1] (61-1 kali-rolling [amd64])
+Inst libio-socket-ssl-perl [2.089-1] (2.095-1 kali-rolling [all])
+Inst libjack-jackd2-0 [1.9.22~dfsg-4] (1.9.22~dfsg-5 kali-rolling [amd64])
+Inst libjcode-pm-perl [2.06-1.1] (2.07-1 kali-rolling [amd64])
+Inst libjq1 [1.7.1-5] (1.8.1-3 kali-rolling [amd64])
+Inst libjudydebian1 [1.0.5-5.1] (1.0.5-6 kali-rolling [amd64])
+Inst liblapack3 [3.12.1-2] (3.12.1-6 kali-rolling [amd64])
+Inst libldap-common [2.6.9+dfsg-2] (2.6.10+dfsg-1 kali-rolling [all])
+Inst llvm-spirv-18 [18.1.11-1] (18.1.15-1 kali-rolling [amd64]) []
+Inst libllvmspirvlib18.1 [18.1.11-1] (18.1.15-1 kali-rolling [amd64])
+Inst liblrdf0 [0.6.1-4+b2] (0.6.1-5 kali-rolling [amd64])
+Inst libmanette-0.2-0 [0.2.12-1] (0.2.12-2 kali-rolling [amd64])
+Inst libmbedcrypto16 [3.6.3-1] (3.6.4-2 kali-rolling [amd64])
+Inst libmongoc-1.0-0t64 [1.30.3-1] (1.30.4-1 kali-rolling [amd64])
+Inst libmpg123-0t64 [1.32.10-1] (1.33.2-1 kali-rolling [amd64])
+Inst libnet-cidr-perl [0.23-1] (0.25-1 kali-rolling [all])
+Inst libopenal-data [1:1.24.2-1] (1:1.24.2-2 kali-rolling [all]) [libopenal1:amd64 ]
+Inst libopenal1 [1:1.24.2-1] (1:1.24.2-2 kali-rolling [amd64])
+Inst libopenfec1 [1.4.2.11+dfsg-1] (1.4.2.12+dfsg-1 kali-rolling [amd64])
+Inst libopenjp2-7 [2.5.3-2] (2.5.3-2.1 kali-rolling [amd64])
+Inst libopenmpt0t64 [0.7.13-1+b1] (0.8.2-2 kali-rolling [amd64])
+Inst libout123-0t64 [1.32.10-1] (1.33.2-1 kali-rolling [amd64])
+Inst libpaho-mqtt1.3 [1.3.14-2] (1.3.15-1 kali-rolling [amd64])
+Inst libpam-gnome-keyring [48.0-1] (48.0-3 kali-rolling [amd64])
+Inst libpfm4 [4.13.0+git99-gc5587f9-1] (4.13.0+git106-g3e4031b-1 kali-rolling [amd64])
+Inst libpipewire-0.3-common [1.4.2-1] (1.4.7-3 kali-rolling [all])
+Inst libpoppler-glib8t64 [25.03.0-4] (25.03.0-5 kali-rolling [amd64]) []
+Inst libpoppler147 [25.03.0-4] (25.03.0-5 kali-rolling [amd64])
+Inst libpostproc58 [7:7.1.1-1+b1] (7:7.1.1-1+b5 kali-rolling [amd64])
+Inst proj-data [9.6.0-1] (9.6.2-1 kali-rolling [all])
+Inst libproj25 [9.6.0-1] (9.6.2-1 kali-rolling [amd64])
+Inst libqt5opengl5t64 [5.15.15+dfsg-5] (5.15.15+dfsg-6 kali-rolling [amd64])
+Inst libqt5printsupport5t64 [5.15.15+dfsg-5] (5.15.15+dfsg-6 kali-rolling [amd64])
+Inst libqt5sql5t64 [5.15.15+dfsg-5] (5.15.15+dfsg-6 kali-rolling [amd64])
+Inst libqt5sql5-sqlite [5.15.15+dfsg-5] (5.15.15+dfsg-6 kali-rolling [amd64])
+Inst libqt5test5t64 [5.15.15+dfsg-5] (5.15.15+dfsg-6 kali-rolling [amd64])
+Inst libqt5webengine5 [5.15.18+dfsg-2+b1] (5.15.18+dfsg-2+b3 kali-rolling [amd64])
+Inst libqt5webenginewidgets5 [5.15.18+dfsg-2+b1] (5.15.18+dfsg-2+b3 kali-rolling [amd64])
+Inst libqt5xml5t64 [5.15.15+dfsg-5] (5.15.15+dfsg-6 kali-rolling [amd64])
+Inst libqt6core6t64 [6.8.2+dfsg-6] (6.8.2+dfsg-9 kali-rolling [amd64])
+Inst libqt6dbus6 [6.8.2+dfsg-6] (6.8.2+dfsg-9 kali-rolling [amd64])
+Inst libqt6opengl6 [6.8.2+dfsg-6] (6.8.2+dfsg-9 kali-rolling [amd64])
+Inst libqt6gui6 [6.8.2+dfsg-6] (6.8.2+dfsg-9 kali-rolling [amd64])
+Inst qt6-qpa-plugins [6.8.2+dfsg-6] (6.8.2+dfsg-9 kali-rolling [amd64])
+Inst libqt6network6 [6.8.2+dfsg-6] (6.8.2+dfsg-9 kali-rolling [amd64])
+Inst libqt6widgets6 [6.8.2+dfsg-6] (6.8.2+dfsg-9 kali-rolling [amd64])
+Inst libqt6openglwidgets6 [6.8.2+dfsg-6] (6.8.2+dfsg-9 kali-rolling [amd64])
+Inst libqt6printsupport6 [6.8.2+dfsg-6] (6.8.2+dfsg-9 kali-rolling [amd64])
+Inst libqt6sql6 [6.8.2+dfsg-6] (6.8.2+dfsg-9 kali-rolling [amd64])
+Inst libqt6sql6-sqlite [6.8.2+dfsg-6] (6.8.2+dfsg-9 kali-rolling [amd64])
+Inst libqt6test6 [6.8.2+dfsg-6] (6.8.2+dfsg-9 kali-rolling [amd64])
+Inst libqt6xml6 [6.8.2+dfsg-6] (6.8.2+dfsg-9 kali-rolling [amd64])
+Inst libqtermwidget6-2 [2.1.0-1] (2.2.0-1 kali-rolling [amd64]) []
+Inst qtermwidget-data [2.1.0-1] (2.2.0-1 kali-rolling [all])
+Inst libraqm0 [0.10.2-1] (0.10.3-1 kali-rolling [amd64])
+Inst libre2-11 [20240702-3+b1] (20250805-1 kali-rolling [amd64])
+Inst librpmsign10 [4.20.1+dfsg-2] (4.20.1+dfsg-3 kali-rolling [amd64]) []
+Inst librpmbuild10 [4.20.1+dfsg-2] (4.20.1+dfsg-3 kali-rolling [amd64]) []
+Inst librpm10 [4.20.1+dfsg-2] (4.20.1+dfsg-3 kali-rolling [amd64]) []
+Inst librpmio10 [4.20.1+dfsg-2] (4.20.1+dfsg-3 kali-rolling [amd64])
+Inst libsdl2-2.0-0 [2.32.4+dfsg-1] (2.32.8+dfsg-2 kali-rolling [amd64])
+Inst libsdl2-mixer-2.0-0 [2.8.1+dfsg-2] (2.8.1+dfsg-3 kali-rolling [amd64])
+Inst libspeechd-module0 [0.12.0-4] (0.12.0-5 kali-rolling [amd64])
+Inst speech-dispatcher-espeak-ng [0.12.0-4] (0.12.0-5 kali-rolling [amd64]) []
+Inst speech-dispatcher [0.12.0-4] (0.12.0-5 kali-rolling [amd64]) []
+Inst speech-dispatcher-audio-plugins [0.12.0-4] (0.12.0-5 kali-rolling [amd64])
+Inst libspeechd2 [0.12.0-4] (0.12.0-5 kali-rolling [amd64])
+Inst libss2 [1.47.2-1+b1] (1.47.2-3+b3 kali-rolling [amd64])
+Inst libssh-4 [0.11.1-2] (0.11.2-1 kali-rolling [amd64])
+Inst libsybdb5 [1.3.17+ds-2+b5] (1.5.4+ds-1 kali-rolling [amd64])
+Inst libsyn123-0t64 [1.32.10-1] (1.33.2-1 kali-rolling [amd64])
+Inst libsz2 [1.1.3-1+b1] (1.1.4-2 kali-rolling [amd64])
+Inst libtcl8.6 [8.6.16+dfsg-1] (8.6.17+dfsg-1 kali-rolling [amd64])
+Inst libtk8.6 [8.6.16-1] (8.6.17-1 kali-rolling [amd64])
+Inst libupower-glib3 [1.90.9-1] (1.90.9-7 kali-rolling [amd64]) [upower:amd64 ]
+Inst upower [1.90.9-1] (1.90.9-7 kali-rolling [amd64])
+Inst liburcu8t64 [0.15.2-2] (0.15.3-1 kali-rolling [amd64])
+Inst libvpl2 [1:2.14.0-1+b1] (1:2.15.0-1 kali-rolling [amd64])
+Inst libvpx9 [1.15.0-2] (1.15.0-2.1 kali-rolling [amd64])
+Inst libwacom-common [2.14.0-1] (2.16.1-1 kali-rolling [all])
+Inst libwacom9 [2.14.0-1] (2.16.1-1 kali-rolling [amd64])
+Inst libwildmidi2 [0.4.3-1+b3] (0.4.6-1 kali-rolling [amd64])
+Inst libwireshark-data [4.4.6-2] (4.4.7-1 kali-rolling [all])
+Inst libwsutil16 [4.4.6-2] (4.4.7-1+b1 kali-rolling [amd64])
+Inst libwiretap15 [4.4.6-2] (4.4.7-1+b1 kali-rolling [amd64])
+Inst libxatracker2 [25.0.5-1] (25.0.7-2 kali-rolling [amd64])
+Inst libxfce4windowing-common [4.20.2-1] (4.20.3-1 kali-rolling [all])
+Inst libxfce4windowing-0-0 [4.20.2-1] (4.20.3-1 kali-rolling [amd64])
+Inst libxml-regexp-perl [0.04-1.1] (0.04-2 kali-rolling [all])
+Inst libxml-twig-perl [1:3.52-3] (1:3.54-1 kali-rolling [all])
+Inst libxvidcore4 [2:1.3.7-1+b2] (2:1.3.7-3 kali-rolling [amd64])
+Inst libyara10 [4.5.2-1] (4.5.4-1 kali-rolling [amd64])
+Inst libzbar0t64 [0.23.93-8] (0.23.93-9 kali-rolling [amd64])
+Inst libze1 [1.20.6-1] (1.24.1-2 kali-rolling [amd64])
+Inst libzimg2 [3.0.5+ds1-1+b2] (3.0.6+ds1-1 kali-rolling [amd64])
+Inst libzip-dev [1.11.3-2] (1.11.4-1 kali-rolling [amd64]) []
+Inst libzip5 [1.11.3-2] (1.11.4-1 kali-rolling [amd64]) []
+Inst zipcmp [1.11.3-2] (1.11.4-1 kali-rolling [amd64]) []
+Inst zipmerge [1.11.3-2] (1.11.4-1 kali-rolling [amd64]) []
+Inst ziptool [1.11.3-2] (1.11.4-1 kali-rolling [amd64])
+Inst linux-base [4.11] (4.14 kali-rolling [all])
+Inst mariadb-plugin-provider-bzip2 [1:11.8.1-4] (1:11.8.3-1+b1 kali-rolling [amd64])
+Inst mariadb-plugin-provider-lz4 [1:11.8.1-4] (1:11.8.3-1+b1 kali-rolling [amd64])
+Inst mariadb-plugin-provider-lzma [1:11.8.1-4] (1:11.8.3-1+b1 kali-rolling [amd64])
+Inst mariadb-plugin-provider-lzo [1:11.8.1-4] (1:11.8.3-1+b1 kali-rolling [amd64])
+Inst mariadb-plugin-provider-snappy [1:11.8.1-4] (1:11.8.3-1+b1 kali-rolling [amd64])
+Inst mesa-vdpau-drivers [25.0.5-1] (25.0.7-2 kali-rolling [amd64])
+Inst mesa-vulkan-drivers [25.0.5-1] (25.0.7-2 kali-rolling [amd64])
+Inst mobile-broadband-provider-info [20240407-1] (20250613-2 kali-rolling [all])
+Inst modemmanager [1.24.0-1] (1.24.2-1 kali-rolling [amd64])
+Inst mpg123 [1.32.10-1] (1.33.2-1 kali-rolling [amd64])
+Inst netdiscover [0.11-2] (0.21-1 kali-rolling [amd64])
+Inst netmask [2.4.4-4] (2.5.0-1 kali-rolling [amd64])
+Inst netsed [1.2-3+b1] (1.4-1 kali-rolling [amd64])
+Inst network-manager-openvpn-gnome [1.12.0-2] (1.12.2-2 kali-rolling [amd64]) []
+Inst network-manager-openvpn [1.12.0-2] (1.12.2-2 kali-rolling [amd64])
+Inst network-manager-pptp-gnome [1.2.12-4+b2] (1.2.12-5 kali-rolling [amd64]) []
+Inst network-manager-pptp [1.2.12-4+b2] (1.2.12-5 kali-rolling [amd64])
+Inst network-manager-vpnc-gnome [1.4.0-2] (1.4.0-3 kali-rolling [amd64]) []
+Inst network-manager-vpnc [1.4.0-2] (1.4.0-3 kali-rolling [amd64])
+Inst nginx [1.26.3-2] (1.26.3-3+b1 kali-rolling [amd64]) []
+Inst nginx-common [1.26.3-2] (1.26.3-3 kali-rolling [all])
+Inst notus-scanner [22.6.5-1] (22.7.2-1 kali-rolling [all])
+Inst offsec-awae-python2 [2025.2.0] (2025.3.0 kali-rolling [amd64])
+Inst openjdk-21-jre [21.0.7+6-1] (21.0.8+9-1 kali-rolling [amd64]) []
+Inst openjdk-21-jre-headless [21.0.7+6-1] (21.0.8+9-1 kali-rolling [amd64])
+Inst opensc [0.26.1-1] (0.26.1-2 kali-rolling [amd64]) []
+Inst opensc-pkcs11 [0.26.1-1] (0.26.1-2 kali-rolling [amd64])
+Inst openvas-scanner [23.19.0-0kali1] (23.23.1-1 kali-rolling [amd64])
+Inst ospd-openvas [22.9.0-0kali1] (22.9.0-1 kali-rolling [all])
+Inst peass [20250501.c34edb3c-0kali1] (20250801.03e73bf3-0kali1 kali-rolling [all])
+Inst php8.4 [8.4.6-2] (8.4.11-1 kali-rolling [all])
+Inst postgresql-17-pg-gvm [22.6.8-1] (22.6.11-1 kali-rolling [amd64])
+Inst preview-latex-style [13.2-1] (13.2-1.1 kali-rolling [all])
+Inst proj-bin [9.6.0-1] (9.6.2-1 kali-rolling [amd64])
+Inst python3-pyqt6 [6.9.0-1] (6.9.0-2 kali-rolling [amd64])
+Inst pyqt6-dev-tools [6.9.0-1] (6.9.0-2 kali-rolling [all])
+Inst python-matplotlib-data [3.10.1+dfsg1-3] (3.10.1+dfsg1-4 kali-rolling [all])
+Inst python3-altgraph [0.17.4+ds-2] (0.17.4+ds-3 kali-rolling [all])
+Inst python3-asttokens [3.0.0-1] (3.0.0-2 kali-rolling [all])
+Inst python3-bitstruct [8.20.0-1] (8.20.0-2 kali-rolling [amd64])
+Inst python3-blinker [1.9.0-1] (1.9.0-2 kali-rolling [all])
+Inst python3-urllib3 [2.3.0-2] (2.3.0-3 kali-rolling [all])
+Inst python3-censys [2.2.17-1] (2.2.18-1 kali-rolling [all])
+Inst python3-cffi [1.17.1-2] (2.0.0~b1-1 kali-rolling [all]) []
+Inst python3-cffi-backend [1.17.1-2+b2] (2.0.0~b1-1 kali-rolling [amd64])
+Inst python3-charset-normalizer [3.4.2-1] (3.4.3-1 kali-rolling [amd64])
+Inst python3-cli-helpers [2.4.0-2] (2.7.0-2 kali-rolling [all])
+Inst python3-contourpy [1.3.1-1+b1] (1.3.1-2 kali-rolling [amd64])
+Inst python3-cssselect2 [0.7.0-3] (0.8.0-1 kali-rolling [all])
+Inst python3-cycler [0.12.1-1] (0.12.1-2 kali-rolling [all])
+Inst python3-django [3:4.2.21-1] (3:4.2.23-1 kali-rolling [all])
+Inst python3-engineio [4.11.2-1] (4.12.1-2 kali-rolling [all])
+Inst python3-executing [2.2.0-0.1] (2.2.0-0.3 kali-rolling [all])
+Inst python3-flask-restful [0.3.10-5] (0.3.10-6 kali-rolling [all])
+Inst python3-frozenlist [1.6.0-1] (1.7.0-1 kali-rolling [amd64])
+Inst python3-gdal [3.10.3+dfsg-1] (3.10.3+dfsg-2+b1 kali-rolling [amd64])
+Inst python3-paramiko [3.5.1-2] (3.5.1-3 kali-rolling [all])
+Inst python3-gvm [26.2.0-1] (26.5.0-1 kali-rolling [all])
+Inst python3-ipy [1:1.01-4] (1:1.01-5 kali-rolling [all])
+Inst python3-jq [1.8.0+dfsg-1+b2] (1.10.0+dfsg-1 kali-rolling [amd64])
+Inst python3-legacycrypt [0.3-2] (0.3-3 kali-rolling [all])
+Inst python3-macholib [1.16.3+ds-2] (1.16.3+ds-3 kali-rolling [all])
+Inst python3-matplotlib [3.10.1+dfsg1-3] (3.10.1+dfsg1-4 kali-rolling [amd64])
+Inst python3-mechanize [1:0.4.10+ds-3] (1:0.4.10+ds-5 kali-rolling [all])
+Inst python3-numexpr [2.10.2-1+b2] (2.11.0-1 kali-rolling [amd64])
+Inst python3-opengl [3.1.9+dfsg-1.1] (3.1.9+dfsg-2 kali-rolling [all])
+Inst python3-pgspecial [2.1.3-1] (2.2.1-1 kali-rolling [all])
+Inst python3-pip [25.1.1+dfsg-1] (25.2+dfsg-1 kali-rolling [all])
+Inst python3-plaster-pastedeploy [0.5-6] (0.5-7 kali-rolling [all])
+Inst python3-prompt-toolkit [3.0.51-2] (3.0.51-4 kali-rolling [all])
+Inst python3-pyexploitdb [0.2.81-0kali1] (0.2.95-0kali1 kali-rolling [all])
+Inst python3-pyfiglet [1.0.2+dfsg-1] (1.0.3+dfsg-1 kali-rolling [all])
+Inst python3-pygraphviz [1.14-1+b2] (1.14-2 kali-rolling [amd64])
+Inst python3-pyinstaller [6.11.1-0kali1] (6.13.0+ds-2 kali-rolling [amd64])
+Inst python3-pylsqpack [0.3.18-2] (0.3.22-1 kali-rolling [amd64])
+Inst python3-qrcode [8.0-2] (8.2-1 kali-rolling [all])
+Inst python3-rq [2.3.2-1] (2.3.3-2 kali-rolling [all])
+Inst python3-slugify [8.0.4-2] (8.0.4-4 kali-rolling [all])
+Inst python3-socketio [5.12.1-1] (5.13.0-1 kali-rolling [all])
+Inst python3-speechd [0.12.0-4] (0.12.0-5 kali-rolling [all])
+Inst python3-starlette [0.46.1-2] (0.46.1-3 kali-rolling [all])
+Inst python3.13-tk [3.13.3-2] (3.13.6-1 kali-rolling [amd64])
+Inst python3-tk [3.13.3-1] (3.13.5-1 kali-rolling [amd64])
+Inst python3-typeshed [0.0~git20241223.ea91db2-1] (0.0~git20241223.ea91db2-3 kali-rolling [all])
+Inst python3-virtualenv [20.30.0+ds-1] (20.34.0+ds-1 kali-rolling [all])
+Inst python3-xlwt [1.3.0-6] (1.3.0-7 kali-rolling [all])
+Inst python3-yara [4.5.1-1+b3] (4.5.4-1 kali-rolling [amd64])
+Inst python3-zstandard [0.23.0-4] (0.24.0-1 kali-rolling [amd64])
+Inst qt5-gtk-platformtheme [5.15.15+dfsg-5] (5.15.15+dfsg-6 kali-rolling [amd64])
+Inst qt6-base-dev-tools [6.8.2+dfsg-6] (6.8.2+dfsg-9 kali-rolling [amd64])
+Inst qt6-gtk-platformtheme [6.8.2+dfsg-6] (6.8.2+dfsg-9 kali-rolling [amd64])
+Inst qtbase5-dev-tools [5.15.15+dfsg-5] (5.15.15+dfsg-6 kali-rolling [amd64])
+Inst read-edid [3.0.2-1.1] (3.0.2-2 kali-rolling [amd64])
+Inst rpm2cpio [4.20.1+dfsg-2] (4.20.1+dfsg-3 kali-rolling [amd64]) []
+Inst rpm [4.20.1+dfsg-2] (4.20.1+dfsg-3 kali-rolling [amd64]) []
+Inst rpm-common [4.20.1+dfsg-2] (4.20.1+dfsg-3 kali-rolling [amd64])
+Inst rsyslog [8.2504.0-1] (8.2506.0-2 kali-rolling [amd64])
+Inst ruby-gssapi [1.2.0-1.1] (1.2.0-2 kali-rolling [all])
+Inst ruby-gyoku [1.3.1-1.1] (1.3.1-2 kali-rolling [all])
+Inst ruby-little-plugger [1.1.4-1.1] (1.1.4-2 kali-rolling [all])
+Inst ruby-logging [2.2.2-1] (2.2.2-2 kali-rolling [all])
+Inst ruby-minitest [5.25.4-2] (5.25.4-3 kali-rolling [all])
+Inst ruby-nori [2.6.0-1.1] (2.6.0-2 kali-rolling [all])
+Inst ruby-sqlite3 [1.7.3-1] (1.7.3-2 kali-rolling [amd64])
+Inst ruby-unf [0.1.4-2.1] (0.1.4-3 kali-rolling [all])
+Inst sound-theme-freedesktop [0.8-4] (0.8-6 kali-rolling [all])
+Inst sphinx-rtd-theme-common [3.0.2+dfsg-2] (3.0.2+dfsg-3 kali-rolling [all])
+Inst squashfs-tools [1:4.6.1-1] (1:4.7.2-1 kali-rolling [amd64])
+Inst sslyze [6.1.0-0kali1] (6.2.0-0kali1 kali-rolling [all])
+Inst tcl8.6 [8.6.16+dfsg-1] (8.6.17+dfsg-1 kali-rolling [amd64])
+Inst tdb-tools [2:1.4.13+samba4.22.1+dfsg-1] (2:1.4.13+samba4.22.4+dfsg-1 kali-rolling [amd64])
+Inst texlive-latex-extra [2024.20250309-2] (2025.20250727-2 kali-rolling [all]) []
+Inst texlive-latex-recommended [2024.20250309-1] (2025.20250727-2 kali-rolling [all]) []
+Inst texlive-latex-base [2024.20250309-1] (2025.20250727-2 kali-rolling [all]) []
+Inst texlive-pictures [2024.20250309-1] (2025.20250727-2 kali-rolling [all]) []
+Inst texlive-plain-generic [2024.20250309-2] (2025.20250727-2 kali-rolling [all]) []
+Inst texlive-fonts-recommended [2024.20250309-1] (2025.20250727-2 kali-rolling [all]) []
+Inst texlive-base [2024.20250309-1] (2025.20250727-2 kali-rolling [all])
+Inst theharvester [4.8.0-0kali1] (4.8.2-0kali1 kali-rolling [all])
+Inst tk8.6 [8.6.16-1] (8.6.17-1 kali-rolling [amd64])
+Inst toilet-fonts [0.3-3] (0.3-4 kali-rolling [all])
+Inst unrar [1:7.1.6-1] (1:7.1.10-2 kali-rolling [amd64])
+Inst update-inetd [4.53] (4.54 kali-rolling [all])
+Inst usb.ids [2025.04.01-1] (2025.07.26-1 kali-rolling [all])
+Inst virtualbox-guest-x11 [7.0.20-dfsg-1.2] (7.1.12-dfsg-2 kali-rolling [amd64]) []
+Inst virtualbox-guest-utils [7.0.20-dfsg-1.2] (7.1.12-dfsg-2 kali-rolling [amd64])
+Inst whatweb [0.5.5-1] (0.6.1-1 kali-rolling [all])
+Inst whois [5.6.1] (5.6.4 kali-rolling [amd64])
+Inst wireless-regdb [2025.02.20-1] (2025.07.10-1 kali-rolling [all])
+Inst xdg-desktop-portal [1.20.0+ds-2] (1.20.3+ds-1 kali-rolling [amd64])
+Inst xml-twig-tools [1:3.52-3] (1:3.54-1 kali-rolling [all])
+Inst xserver-xephyr [2:21.1.16-1.1] (2:21.1.16-1.3 kali-rolling [amd64])
+Inst xvfb [2:21.1.16-1.1] (2:21.1.16-1.3 kali-rolling [amd64])
+Inst yelp-xsl [42.1-4] (49~beta-1 kali-rolling [all])
+Conf libc6-i386 (2.41-12 kali-rolling [amd64])
+Conf libc6-dev (2.41-12 kali-rolling [amd64])
+Conf libc-dev-bin (2.41-12 kali-rolling [amd64])
+Conf linux-libc-dev (6.12.38-1kali1 kali-rolling [all])
+Conf xserver-common (2:21.1.16-1.3 kali-rolling [all])
+Conf xserver-xorg-legacy (2:21.1.16-1.3 kali-rolling [amd64])
+Conf xserver-xorg-core (2:21.1.16-1.3 kali-rolling [amd64])
+Conf systemd-sysv (257.7-1 kali-rolling [amd64])
+Conf libnss-systemd (257.7-1 kali-rolling [amd64])
+Conf libpam-systemd (257.7-1 kali-rolling [amd64])
+Conf systemd (257.7-1 kali-rolling [amd64])
+Conf systemd-timesyncd (257.7-1 kali-rolling [amd64])
+Conf udev (257.7-1 kali-rolling [amd64])
+Conf sqlite3 (3.46.1-7 kali-rolling [amd64])
+Conf eject (2.41.1-1 kali-rolling [amd64])
+Conf uuid-dev (2.41.1-1 kali-rolling [amd64])
+Conf libfdisk1 (2.41.1-1 kali-rolling [amd64])
+Conf bsdextrautils (2.41.1-1 kali-rolling [amd64])
+Conf util-linux-extra (2.41.1-1 kali-rolling [amd64])
+Conf rfkill (2.41.1-1 kali-rolling [amd64])
+Conf fdisk (2.41.1-1 kali-rolling [amd64])
+Conf mount (2.41.1-1 kali-rolling [amd64])
+Conf auditd (1:4.0.5-1 kali-rolling [amd64])
+Conf libauparse0t64 (1:4.0.5-1 kali-rolling [amd64])
+Conf gawk (1:5.3.2-1 kali-rolling [amd64])
+Conf console-setup-linux (1.240 kali-rolling [all])
+Conf keyboard-configuration (1.240 kali-rolling [all])
+Conf console-setup (1.240 kali-rolling [all])
+Conf libexpat1-dev (2.7.1-2 kali-rolling [amd64])
+Conf libegl-mesa0 (25.0.7-2 kali-rolling [amd64])
+Conf mesa-va-drivers (25.0.7-2 kali-rolling [amd64])
+Conf libvulkan1 (1.4.321.0-1 kali-rolling [amd64])
+Conf libgl1-mesa-dri (25.0.7-2 kali-rolling [amd64])
+Conf libglx-mesa0 (25.0.7-2 kali-rolling [amd64])
+Conf libgbm1 (25.0.7-2 kali-rolling [amd64])
+Conf mesa-libgallium (25.0.7-2 kali-rolling [amd64])
+Conf libperl5.40 (5.40.1-6 kali-rolling [amd64])
+Conf perl (5.40.1-6 kali-rolling [amd64])
+Conf perl-modules-5.40 (5.40.1-6 kali-rolling [all])
+Conf libgdbm6t64 (1.26-1 kali-rolling [amd64])
+Conf libgdbm-compat4t64 (1.26-1 kali-rolling [amd64])
+Conf apt-utils (3.1.4+kali1 kali-rolling [amd64])
+Conf libgmp-dev (2:6.3.0+dfsg-4 kali-rolling [amd64])
+Conf libgmpxx4ldbl (2:6.3.0+dfsg-4 kali-rolling [amd64])
+Conf login (1:4.16.0-2+really2.41.1-1 kali-rolling [amd64])
+Conf sensible-utils (0.0.26 kali-rolling [all])
+Conf cron (3.0pl1-197 kali-rolling [amd64])
+Conf logsave (1.47.2-3+b3 kali-rolling [amd64])
+Conf e2fsprogs (1.47.2-3+b3 kali-rolling [amd64])
+Conf firmware-sof-signed (2025.05-1 kali-rolling [all])
+Conf galera-4 (26.4.23-1 kali-rolling [amd64])
+Conf libpng16-16t64 (1.6.50-1 kali-rolling [amd64])
+Conf libxm4 (2.3.8-5 kali-rolling [amd64])
+Conf libmotif-common (2.3.8-5 kali-rolling [all])
+Conf liburing2 (2.11-1 kali-rolling [amd64])
+Conf mariadb-server-compat (1:11.8.3-1 kali-rolling [all])
+Conf mariadb-server-core (1:11.8.3-1+b1 kali-rolling [amd64])
+Conf mariadb-client-core (1:11.8.3-1+b1 kali-rolling [amd64])
+Conf mariadb-server (1:11.8.3-1+b1 kali-rolling [amd64])
+Conf mariadb-client (1:11.8.3-1+b1 kali-rolling [amd64])
+Conf libmariadb3 (1:11.8.3-1+b1 kali-rolling [amd64])
+Conf libbpf1 (1:1.6.1-1 kali-rolling [amd64])
+Conf libcap2-bin (1:2.75-10+b1 kali-rolling [amd64])
+Conf iproute2 (6.16.0-1 kali-rolling [amd64])
+Conf rsync (3.4.1+ds1-6~kali2 kali-rolling [amd64])
+Conf libcjson1 (1.7.18-3.1 kali-rolling [amd64])
+Conf mosquitto (2.0.22-2 kali-rolling [amd64])
+Conf libmosquitto1 (2.0.22-2 kali-rolling [amd64])
+Conf comerr-dev (2.1-1.47.2-3+b3 kali-rolling [amd64])
+Conf libcom-err2 (1.47.2-3+b3 kali-rolling [amd64])
+Conf ldap-utils (2.6.10+dfsg-1 kali-rolling [amd64])
+Conf libldap2 (2.6.10+dfsg-1 kali-rolling [amd64])
+Conf nfs-common (1:2.8.3-1+b1 kali-rolling [amd64])
+Conf libnfsidmap1 (1:2.8.3-1+b1 kali-rolling [amd64])
+Conf libproc2-0 (2:4.0.4-9 kali-rolling [amd64])
+Conf procps (2:4.0.4-9 kali-rolling [amd64])
+Conf ucf (3.0052 kali-rolling [all])
+Conf python3.13-dev (3.13.6-1 kali-rolling [amd64])
+Conf libpython3.13-dev (3.13.6-1 kali-rolling [amd64])
+Conf libpython3.13 (3.13.6-1 kali-rolling [amd64])
+Conf python3-pip-whl (25.2+dfsg-1 kali-rolling [all])
+Conf python3-setuptools-whl (78.1.1-0.1 kali-rolling [all])
+Conf python3.13-venv (3.13.6-1 kali-rolling [amd64])
+Conf tzdata (2025b-5 kali-rolling [all])
+Conf tzdata-legacy (2025b-5 kali-rolling [all])
+Conf python3.13 (3.13.6-1 kali-rolling [amd64])
+Conf libpython3.13-stdlib (3.13.6-1 kali-rolling [amd64])
+Conf python3-venv (3.13.5-1 kali-rolling [amd64])
+Conf libpython3-dev (3.13.5-1 kali-rolling [amd64])
+Conf python3-dev (3.13.5-1 kali-rolling [amd64])
+Conf python3 (3.13.5-1 kali-rolling [amd64])
+Conf libpython3-stdlib (3.13.5-1 kali-rolling [amd64])
+Conf redis-server (5:8.0.2-3 kali-rolling [amd64])
+Conf redis-tools (5:8.0.2-3 kali-rolling [amd64])
+Conf smbclient (2:4.22.4+dfsg-1 kali-rolling [amd64])
+Conf samba-dsdb-modules (2:4.22.4+dfsg-1 kali-rolling [amd64])
+Conf python3-samba (2:4.22.4+dfsg-1 kali-rolling [amd64])
+Conf samba-common-bin (2:4.22.4+dfsg-1 kali-rolling [amd64])
+Conf python3-ldb (2:2.11.0+samba4.22.4+dfsg-1 kali-rolling [amd64])
+Conf libldb2 (2:2.11.0+samba4.22.4+dfsg-1 kali-rolling [amd64])
+Conf libsmbclient0 (2:4.22.4+dfsg-1 kali-rolling [amd64])
+Conf samba-libs (2:4.22.4+dfsg-1 kali-rolling [amd64])
+Conf samba-ad-provision (2:4.22.4+dfsg-1 kali-rolling [all])
+Conf samba (2:4.22.4+dfsg-1 kali-rolling [amd64])
+Conf samba-ad-dc (2:4.22.4+dfsg-1 kali-rolling [amd64])
+Conf libpam-winbind (2:4.22.4+dfsg-1 kali-rolling [amd64])
+Conf winbind (2:4.22.4+dfsg-1 kali-rolling [amd64])
+Conf libnss-winbind (2:4.22.4+dfsg-1 kali-rolling [amd64])
+Conf libunbound8 (1.23.1-1 kali-rolling [amd64])
+Conf libgnutls-dane0t64 (3.8.9-3 kali-rolling [amd64])
+Conf libidn2-0 (2.3.8-4 kali-rolling [amd64])
+Conf libgnutls30t64 (3.8.9-3 kali-rolling [amd64])
+Conf libtalloc2 (2:2.4.3+samba4.22.4+dfsg-1 kali-rolling [amd64])
+Conf libtevent0t64 (2:0.16.2+samba4.22.4+dfsg-1 kali-rolling [amd64])
+Conf libcups2t64 (2.4.10-3 kali-rolling [amd64])
+Conf libtdb1 (2:1.4.13+samba4.22.4+dfsg-1 kali-rolling [amd64])
+Conf libwbclient0 (2:4.22.4+dfsg-1 kali-rolling [amd64])
+Conf samba-common (2:4.22.4+dfsg-1 kali-rolling [all])
+Conf libicu76 (76.1-4 kali-rolling [amd64])
+Conf python3-tdb (2:1.4.13+samba4.22.4+dfsg-1 kali-rolling [amd64])
+Conf python3-talloc (2:2.4.3+samba4.22.4+dfsg-1 kali-rolling [amd64])
+Conf strongswan-starter (6.0.2-1 kali-rolling [amd64])
+Conf strongswan-libcharon (6.0.2-1 kali-rolling [amd64])
+Conf strongswan-charon (6.0.2-1 kali-rolling [amd64])
+Conf libcharon-extauth-plugins (6.0.2-1 kali-rolling [amd64])
+Conf libstrongswan (6.0.2-1 kali-rolling [amd64])
+Conf libstrongswan-standard-plugins (6.0.2-1 kali-rolling [amd64])
+Conf sudo (1.9.17p2-1 kali-rolling [amd64])
+Conf tasksel-data (3.82+kali1 kali-rolling [all])
+Conf tasksel (3.82+kali1 kali-rolling [all])
+Conf cron-daemon-common (3.0pl1-197 kali-rolling [all])
+Conf dhcpcd-base (1:10.2.4-3 kali-rolling [amd64])
+Conf iputils-ping (3:20250605-1 kali-rolling [amd64])
+Conf linux-sysctl-defaults (4.14 kali-rolling [all])
+Conf nftables (1.1.3-1 kali-rolling [amd64])
+Conf libnftables1 (1.1.3-1 kali-rolling [amd64])
+Conf gettext-base (0.23.1-2+b1 kali-rolling [amd64])
+Conf groff-base (1.23.0-9 kali-rolling [amd64])
+Conf inetutils-telnet (2:2.6-4 kali-rolling [amd64])
+Conf libc-l10n (2.41-12 kali-rolling [all])
+Conf locales (2.41-12 kali-rolling [all])
+Conf pci.ids (0.0~2025.07.11-1 kali-rolling [all])
+Conf pciutils (1:3.14.0-1 kali-rolling [amd64])
+Conf libpci3 (1:3.14.0-1 kali-rolling [amd64])
+Conf 7zip (25.01+dfsg-2 kali-rolling [amd64])
+Conf libgdk-pixbuf2.0-common (2.42.12+dfsg-5 kali-rolling [all])
+Conf libglib2.0-data (2.84.4-3 kali-rolling [all])
+Conf libglib2.0-bin (2.84.4-3 kali-rolling [amd64])
+Conf gir1.2-glib-2.0 (2.84.4-3 kali-rolling [amd64])
+Conf libglib2.0-0t64 (2.84.4-3 kali-rolling [amd64])
+Conf libtiff6 (4.7.0-4 kali-rolling [amd64])
+Conf libgdk-pixbuf-2.0-0 (2.42.12+dfsg-5 kali-rolling [amd64])
+Conf gtk-update-icon-cache (4.18.6+ds-2 kali-rolling [amd64])
+Conf adwaita-icon-theme (48.1-1 kali-rolling [all])
+Conf arping (2.26-1 kali-rolling [amd64])
+Conf at-spi2-common (2.57.1-1 kali-rolling [all])
+Conf gir1.2-atk-1.0 (2.57.1-1 kali-rolling [amd64])
+Conf libatk-bridge2.0-0t64 (2.57.1-1 kali-rolling [amd64])
+Conf libatk1.0-0t64 (2.57.1-1 kali-rolling [amd64])
+Conf gir1.2-atspi-2.0 (2.57.1-1 kali-rolling [amd64])
+Conf at-spi2-core (2.57.1-1 kali-rolling [amd64])
+Conf libatspi2.0-0t64 (2.57.1-1 kali-rolling [amd64])
+Conf gsettings-desktop-schemas (49~beta-1 kali-rolling [all])
+Conf atril-common (1.26.2-5 kali-rolling [all])
+Conf bluez (5.82-1.1 kali-rolling [amd64])
+Conf bluez-hcidump (5.82-1.1 kali-rolling [amd64])
+Conf libnss3 (2:3.114-1 kali-rolling [amd64])
+Conf libcamel-1.2-64t64 (3.56.2-3 kali-rolling [amd64])
+Conf libebook-contacts-1.2-4t64 (3.56.2-3 kali-rolling [amd64])
+Conf bluez-obexd (5.82-1.1 kali-rolling [amd64])
+Conf burpsuite (2025.7.4-0kali1 kali-rolling [amd64])
+Conf busybox (1:1.37.0-6+b3 kali-rolling [amd64])
+Conf python3-soupsieve (2.7-2 kali-rolling [all])
+Conf python3-typing-extensions (4.14.1-1 kali-rolling [all])
+Conf python3-bs4 (4.13.4-4 kali-rolling [all])
+Conf python3-openssl (25.1.0-1 kali-rolling [all])
+Conf certipy-ad (5.0.3-0kali1 kali-rolling [all])
+Conf cifs-utils (2:7.4-1 kali-rolling [amd64])
+Conf cryptcat (20031202-5kali8 kali-rolling [amd64])
+Conf libargon2-1 (0~20190702+dfsg-5 kali-rolling [amd64])
+Conf cryptsetup-initramfs (2:2.8.1-1 kali-rolling [all])
+Conf libcryptsetup12 (2:2.8.1-1 kali-rolling [amd64])
+Conf cryptsetup-bin (2:2.8.1-1 kali-rolling [amd64])
+Conf cryptsetup (2:2.8.1-1 kali-rolling [amd64])
+Conf libnghttp2-14 (1.64.0-1.1+b1 kali-rolling [amd64])
+Conf librtmp1 (2.4+20151223.gitfa8646d.1-3 kali-rolling [amd64])
+Conf curl (8.15.0-1 kali-rolling [amd64])
+Conf libcurl4t64 (8.15.0-1 kali-rolling [amd64])
+Conf fonts-firacode (6.2-3 kali-rolling [all])
+Conf kali-defaults (2025.3.2 kali-rolling [all])
+Conf libxkbcommon-x11-0 (1.7.0-2.1 kali-rolling [amd64])
+Conf libxkbcommon0 (1.7.0-2.1 kali-rolling [amd64])
+Conf libplymouth5 (24.004.60-5 kali-rolling [amd64])
+Conf plymouth-label (24.004.60-5 kali-rolling [amd64])
+Conf plymouth (24.004.60-5 kali-rolling [amd64])
+Conf kali-themes (2025.3.2 kali-rolling [all])
+Conf kali-desktop-base (2025.3.2 kali-rolling [all])
+Conf kali-themes-common (2025.3.2 kali-rolling [all])
+Conf desktop-base (13.0.3+kali1 kali-rolling [all])
+Conf libgpg-error-l10n (1.55-2 kali-rolling [all])
+Conf libgpg-error0 (1.55-2 kali-rolling [amd64])
+Conf libgcrypt20 (1.11.2-2 kali-rolling [amd64])
+Conf gnupg-utils (2.4.8-2 kali-rolling [amd64])
+Conf gpg-wks-client (2.4.8-2 kali-rolling [amd64])
+Conf dirmngr (2.4.8-2 kali-rolling [amd64])
+Conf gpg-agent (2.4.8-2 kali-rolling [amd64])
+Conf gpg (2.4.8-2 kali-rolling [amd64])
+Conf gpgconf (2.4.8-2 kali-rolling [amd64])
+Conf gnupg (2.4.8-2 kali-rolling [all])
+Conf gpgsm (2.4.8-2 kali-rolling [amd64])
+Conf pinentry-curses (1.3.2-3 kali-rolling [amd64])
+Conf pinentry-gnome3 (1.3.2-3 kali-rolling [amd64])
+Conf gnupg-l10n (2.4.8-2 kali-rolling [all])
+Conf distro-info-data (0.66 kali-rolling [all])
+Conf dns-root-data (2025080400 kali-rolling [all])
+Conf dpkg-dev (1.22.21+kali1 kali-rolling [all])
+Conf libdpkg-perl (1.22.21+kali1 kali-rolling [all])
+Conf patch (2.8-2 kali-rolling [amd64])
+Conf dracut-install (108-3 kali-rolling [amd64])
+Conf dvisvgm (3.5+ds-1 kali-rolling [amd64])
+Conf texlive-binaries (2025.20250727.75242+ds-4 kali-rolling [amd64])
+Conf libptexenc1 (2025.20250727.75242+ds-4 kali-rolling [amd64])
+Conf libsynctex2 (2025.20250727.75242+ds-4 kali-rolling [amd64])
+Conf libtexlua53-5 (2025.20250727.75242+ds-4 kali-rolling [amd64])
+Conf libgraphite2-3 (1.3.14-3 kali-rolling [amd64])
+Conf libkpathsea6 (2025.20250727.75242+ds-4 kali-rolling [amd64])
+Conf openssl (3.5.2-1 kali-rolling [amd64])
+Conf easy-rsa (3.2.3-1 kali-rolling [all])
+Conf emacsen-common (3.0.8 kali-rolling [all])
+Conf engrampa (1.26.2-5 kali-rolling [amd64])
+Conf engrampa-common (1.26.2-5 kali-rolling [all])
+Conf libgtk-3-common (3.24.50-1 kali-rolling [all])
+Conf libgtk-3-0t64 (3.24.50-1 kali-rolling [amd64])
+Conf libcaja-extension1 (1.26.4-1+b1 kali-rolling [amd64])
+Conf libjson-glib-1.0-common (1.10.6+ds-3 kali-rolling [all])
+Conf libjson-glib-1.0-0 (1.10.6+ds-3 kali-rolling [amd64])
+Conf ethtool (1:6.15-2 kali-rolling [amd64])
+Conf evolution-data-server-common (3.56.2-3 kali-rolling [all])
+Conf exfatprogs (1.2.9-1 kali-rolling [amd64])
+Conf exploitdb (20250819-0kali1 kali-rolling [all])
+Conf libfakeroot (1.37.1.2-1 kali-rolling [amd64])
+Conf fakeroot (1.37.1.2-1 kali-rolling [amd64])
+Conf kali-menu (2025.3.0 kali-rolling [all])
+Conf python3-apispec (6.8.2-1 kali-rolling [all])
+Conf python3-kombu (5.5.4-1 kali-rolling [all])
+Conf python3-pytz (2025.2-3 kali-rolling [all])
+Conf python3-tz (2025.2-3 kali-rolling [all])
+Conf python3-click-plugins (1.1.1.2-1 kali-rolling [all])
+Conf python3-celery (5.5.3-1 kali-rolling [all])
+Conf python3-faraday-agent-parameters-types (1.8.1-0kali1 kali-rolling [all])
+Conf python3-tldextract (5.1.2-2 kali-rolling [all])
+Conf python3-faraday-plugins (1.25.0-0kali1 kali-rolling [all])
+Conf python3-jwt (2.10.1-3 kali-rolling [all])
+Conf python3-sqlalchemy-ext (2.0.43+ds1-1 kali-rolling [amd64])
+Conf python3-sqlalchemy (2.0.43+ds1-1 kali-rolling [all])
+Conf python3-marshmallow-sqlalchemy (1.4.2-1 kali-rolling [all])
+Conf python3-redis (6.1.0-2 kali-rolling [all])
+Conf gir1.2-gdkpixbuf-2.0 (2.42.12+dfsg-5 kali-rolling [amd64])
+Conf gir1.2-gtk-3.0 (3.24.50-1 kali-rolling [amd64])
+Conf libvte-2.91-0 (0.80.3-2 kali-rolling [amd64])
+Conf libvte-2.91-common (0.80.3-2 kali-rolling [amd64])
+Conf gir1.2-vte-2.91 (0.80.3-2 kali-rolling [amd64])
+Conf zsh (5.9-8+b14 kali-rolling [amd64])
+Conf faraday (5.15.3-0kali1 kali-rolling [all])
+Conf ffuf (2.1.0-1+b9 kali-rolling [amd64])
+Conf libfbclient2 (4.0.6.3221.ds6-1 kali-rolling [amd64])
+Conf firebird4.0-common (4.0.6.3221.ds6-1 kali-rolling [all])
+Conf firebird4.0-common-doc (4.0.6.3221.ds6-1 kali-rolling [all])
+Conf libusb-1.0-0 (2:1.0.29-2 kali-rolling [amd64])
+Conf libftdi1-2 (1.5-11 kali-rolling [amd64])
+Conf flashrom (1.6.0-2 kali-rolling [amd64])
+Conf fonts-hack (3.003-4 kali-rolling [all])
+Conf fonts-noto-color-emoji (2.048-1 kali-rolling [all])
+Conf libswresample5 (7:7.1.1-1+b5 kali-rolling [amd64])
+Conf freerdp3-x11 (3.16.0+dfsg-2+kali1 kali-rolling [amd64])
+Conf libfreerdp-client3-3 (3.16.0+dfsg-2+kali1 kali-rolling [amd64])
+Conf libfreerdp3-3 (3.16.0+dfsg-2+kali1 kali-rolling [amd64])
+Conf libwinpr3-3 (3.16.0+dfsg-2+kali1 kali-rolling [amd64])
+Conf fuse3 (3.17.4-1 kali-rolling [amd64])
+Conf libfuse3-4 (3.17.4-1 kali-rolling [amd64])
+Conf freetds-common (1.5.4+ds-1 kali-rolling [all])
+Conf gcr4 (4.4.0.1-5 kali-rolling [amd64])
+Conf libgcr-4-4 (4.4.0.1-5 kali-rolling [amd64])
+Conf libgck-2-2 (4.4.0.1-5 kali-rolling [amd64])
+Conf libgtk-4-common (4.18.6+ds-2 kali-rolling [all])
+Conf libgtk-4-1 (4.18.6+ds-2 kali-rolling [amd64])
+Conf gdal-data (3.10.3+dfsg-2 kali-rolling [all])
+Conf gdal-plugins (3.10.3+dfsg-2+b1 kali-rolling [amd64])
+Conf libgstreamer1.0-0 (1.26.5-2 kali-rolling [amd64])
+Conf gir1.2-gstreamer-1.0 (1.26.5-2 kali-rolling [amd64])
+Conf libhandy-1-0 (1.8.3-3 kali-rolling [amd64])
+Conf gir1.2-handy-1 (1.8.3-3 kali-rolling [amd64])
+Conf network-manager-l10n (1.54.0-4 kali-rolling [all])
+Conf libbluetooth3 (5.82-1.1 kali-rolling [amd64])
+Conf libcurl3t64-gnutls (8.15.0-1 kali-rolling [amd64])
+Conf libmm-glib0 (1.24.2-1 kali-rolling [amd64])
+Conf network-manager (1.54.0-4 kali-rolling [amd64])
+Conf libnm0 (1.54.0-4 kali-rolling [amd64])
+Conf gir1.2-nm-1.0 (1.54.0-4 kali-rolling [amd64])
+Conf git (1:2.50.1-0.1 kali-rolling [amd64])
+Conf git-man (1:2.50.1-0.1 kali-rolling [all])
+Conf gnome-disk-utility (46.1-2+b1 kali-rolling [amd64])
+Conf gnome-keyring (48.0-3 kali-rolling [amd64])
+Conf gnome-keyring-pkcs11 (48.0-3 kali-rolling [amd64])
+Conf gnutls-bin (3.8.9-3 kali-rolling [amd64])
+Conf go-l2tp (0.1.8-1+b10 kali-rolling [amd64])
+Conf gobuster (3.8.0-2 kali-rolling [amd64])
+Conf gparted (1.6.0-2 kali-rolling [amd64])
+Conf gparted-common (1.6.0-2 kali-rolling [all])
+Conf gpgv (2.4.8-2 kali-rolling [amd64])
+Conf grub2-common (2.12-9+kali1 kali-rolling [amd64])
+Conf grub-pc (2.12-9+kali1 kali-rolling [amd64])
+Conf grub-pc-bin (2.12-9+kali1 kali-rolling [amd64])
+Conf libefivar1t64 (39-2 kali-rolling [amd64])
+Conf libefiboot1t64 (39-2 kali-rolling [amd64])
+Conf grub-common (2.12-9+kali1 kali-rolling [amd64])
+Conf libgstreamer-plugins-base1.0-0 (1.26.5-2 kali-rolling [amd64])
+Conf libgstreamer-gl1.0-0 (1.26.5-2 kali-rolling [amd64])
+Conf gstreamer1.0-gl (1.26.5-2 kali-rolling [amd64])
+Conf gstreamer1.0-libav (1.26.5-2 kali-rolling [amd64])
+Conf libogg0 (1.3.6-1 kali-rolling [amd64])
+Conf gstreamer1.0-plugins-base (1.26.5-2 kali-rolling [amd64])
+Conf gstreamer1.0-x (1.26.5-2 kali-rolling [amd64])
+Conf libhwloc15 (2.12.0-4+b1 kali-rolling [amd64])
+Conf hwloc (2.12.0-4+b1 kali-rolling [amd64])
+Conf iio-sensor-proxy (3.7-3 kali-rolling [amd64])
+Conf libigdgmm12 (22.8.1+ds1-1 kali-rolling [amd64])
+Conf intel-media-va-driver (25.3.0+dfsg1-1 kali-rolling [amd64])
+Conf ipp-usb (0.9.23-2+b7 kali-rolling [amd64])
+Conf isympy-common (1.14.0-2 kali-rolling [all])
+Conf python3-sympy (1.14.0-2 kali-rolling [all])
+Conf isympy3 (1.14.0-2 kali-rolling [all])
+Conf john (1.9.0-Jumbo-1+git20211102-0kali10 kali-rolling [amd64])
+Conf john-data (1.9.0-Jumbo-1+git20211102-0kali10 kali-rolling [all])
+Conf kali-defaults-desktop (2025.3.2 kali-rolling [all])
+Conf kali-desktop-core (2025.3.2 kali-rolling [amd64])
+Conf xfce4-screensaver (4.20.0-1 kali-rolling [amd64])
+Conf thunar (4.20.4-1 kali-rolling [amd64])
+Conf thunar-data (4.20.4-1 kali-rolling [all])
+Conf libthunarx-3-0 (4.20.4-1 kali-rolling [amd64])
+Conf xfce4 (4.20.1 kali-rolling [all])
+Conf libqt5core5t64 (5.15.15+dfsg-6 kali-rolling [amd64])
+Conf libqt5dbus5t64 (5.15.15+dfsg-6 kali-rolling [amd64])
+Conf libqt5network5t64 (5.15.15+dfsg-6 kali-rolling [amd64])
+Conf libqt5gui5t64 (5.15.15+dfsg-6 kali-rolling [amd64])
+Conf libqt5widgets5t64 (5.15.15+dfsg-6 kali-rolling [amd64])
+Conf qt5ct (1.9-1 kali-rolling [amd64])
+Conf libnma-gtk4-0 (1.10.6-7 kali-rolling [amd64])
+Conf libnma0 (1.10.6-7 kali-rolling [amd64])
+Conf libnma-common (1.10.6-7 kali-rolling [all])
+Conf network-manager-gnome (1.36.0-4 kali-rolling [amd64])
+Conf network-manager-applet (1.36.0-4 kali-rolling [amd64])
+Conf nm-connection-editor (1.36.0-4 kali-rolling [amd64])
+Conf pipewire-pulse (1.4.7-3+b1 kali-rolling [amd64])
+Conf pipewire-bin (1.4.7-3+b1 kali-rolling [amd64])
+Conf libpipewire-0.3-0t64 (1.4.7-3+b1 kali-rolling [amd64])
+Conf libspa-0.2-bluetooth (1.4.7-3+b1 kali-rolling [amd64])
+Conf libspa-0.2-modules (1.4.7-3+b1 kali-rolling [amd64])
+Conf pipewire (1.4.7-3+b1 kali-rolling [amd64])
+Conf libpipewire-0.3-modules (1.4.7-3+b1 kali-rolling [amd64])
+Conf liblua5.4-0 (5.4.8-1 kali-rolling [amd64])
+Conf wireplumber (0.5.10-3 kali-rolling [amd64])
+Conf libwireplumber-0.5-0 (0.5.10-3 kali-rolling [amd64])
+Conf kali-desktop-xfce (2025.3.2 kali-rolling [all])
+Conf kali-system-core (2025.3.2 kali-rolling [amd64])
+Conf kali-linux-core (2025.3.2 kali-rolling [amd64])
+Conf kali-system-cli (2025.3.2 kali-rolling [amd64])
+Conf tightvncpasswd (1:1.3.10-10 kali-rolling [amd64])
+Conf tightvncserver (1:1.3.10-10 kali-rolling [amd64])
+Conf xtightvncviewer (1:1.3.10-10 kali-rolling [amd64])
+Conf kali-system-gui (2025.3.2 kali-rolling [amd64])
+Conf metasploit-framework (6.4.84-0kali1 kali-rolling [amd64])
+Conf python3-importlib-metadata (8.7.0-2 kali-rolling [all])
+Conf python3-typeguard (4.4.4-1 kali-rolling [all])
+Conf python3-pkg-resources (78.1.1-0.1 kali-rolling [all])
+Conf python3-setuptools (78.1.1-0.1 kali-rolling [all])
+Conf responder (3.1.7.0-0kali1 kali-rolling [all])
+Conf sqlmap (1.9.8-1 kali-rolling [all])
+Conf kali-tools-top10 (2025.3.2 kali-rolling [amd64])
+Conf ophcrack (3.8.0-4 kali-rolling [amd64])
+Conf ophcrack-cli (3.8.0-4 kali-rolling [amd64])
+Conf kali-linux-default (2025.3.2 kali-rolling [amd64])
+Conf kali-linux-firmware (2025.3.2 kali-rolling [amd64])
+Conf libabsl20240722 (20240722.0-4 kali-rolling [amd64])
+Conf libaec0 (1.1.4-2 kali-rolling [amd64])
+Conf libass9 (1:0.17.4-2 kali-rolling [amd64])
+Conf libatasmart4 (0.19-6 kali-rolling [amd64])
+Conf libatk-wrapper-java (0.42.1-1 kali-rolling [all])
+Conf libatk-wrapper-java-jni (0.42.1-1 kali-rolling [amd64])
+Conf libyuv0 (0.0.1916.20250814-1 kali-rolling [amd64])
+Conf libavif16 (1.3.0-1 kali-rolling [amd64])
+Conf libblas3 (3.12.1-6 kali-rolling [amd64])
+Conf libblockdev-utils3 (3.3.1-3 kali-rolling [amd64])
+Conf libvolume-key1 (0.3.12-10 kali-rolling [amd64])
+Conf libblockdev-crypto3 (3.3.1-3 kali-rolling [amd64])
+Conf libblockdev-fs3 (3.3.1-3 kali-rolling [amd64])
+Conf libblockdev-loop3 (3.3.1-3 kali-rolling [amd64])
+Conf libbytesize1 (2.11-3 kali-rolling [amd64])
+Conf libbytesize-common (2.11-3 kali-rolling [all])
+Conf libblockdev-mdraid3 (3.3.1-3 kali-rolling [amd64])
+Conf libnvme1t64 (1.15-2 kali-rolling [amd64])
+Conf libblockdev-nvme3 (3.3.1-3 kali-rolling [amd64])
+Conf libblockdev-part3 (3.3.1-3 kali-rolling [amd64])
+Conf libblockdev-swap3 (3.3.1-3 kali-rolling [amd64])
+Conf libblockdev3 (3.3.1-3 kali-rolling [amd64])
+Conf libbson-1.0-0t64 (1.30.4-1 kali-rolling [amd64])
+Conf libclang-rt-18-dev (1:18.1.8-18+b2 kali-rolling [amd64])
+Conf libclang-rt-19-dev (1:19.1.7-3+b2 kali-rolling [amd64])
+Conf libcommons-logging-java (1.3.0-2 kali-rolling [all])
+Conf libct4 (1.5.4+ds-1 kali-rolling [amd64])
+Conf libctf-nobfd0 (2.45-4 kali-rolling [amd64])
+Conf libdate-manip-perl (6.98-1 kali-rolling [all])
+Conf libdatrie1 (0.2.13-4 kali-rolling [amd64])
+Conf libde265-0 (1.0.16-1 kali-rolling [amd64])
+Conf libdecor-0-plugin-1-gtk (0.2.3-3 kali-rolling [amd64])
+Conf libdecor-0-0 (0.2.3-3 kali-rolling [amd64])
+Conf libdigest-bubblebabble-perl (0.02-3 kali-rolling [all])
+Conf libdjvulibre-text (3.5.28-2.2 kali-rolling [all])
+Conf libdjvulibre21 (3.5.28-2.2 kali-rolling [amd64])
+Conf libdnnl3.6 (3.8.1+ds-1 kali-rolling [amd64])
+Conf libsoup-3.0-common (3.6.5-3 kali-rolling [all])
+Conf libsoup-3.0-0 (3.6.5-3 kali-rolling [amd64])
+Conf libebackend-1.2-11t64 (3.56.2-3 kali-rolling [amd64])
+Conf libedata-book-1.2-27t64 (3.56.2-3 kali-rolling [amd64])
+Conf libfido2-1 (1.16.0-2 kali-rolling [amd64])
+Conf libflashrom1 (1.6.0-2 kali-rolling [amd64])
+Conf libgdk-pixbuf2.0-bin (2.42.12+dfsg-5 kali-rolling [amd64])
+Conf libgoa-1.0-common (3.54.5-1 kali-rolling [all])
+Conf libgoa-1.0-0b (3.54.5-1+b1 kali-rolling [amd64])
+Conf libgphoto2-port12t64 (2.5.31-4+b2 kali-rolling [amd64])
+Conf libgssdp-1.6-0 (1.6.4-1 kali-rolling [amd64])
+Conf libgtk-3-bin (3.24.50-1 kali-rolling [amd64])
+Conf libgtk-4-bin (4.18.6+ds-2 kali-rolling [amd64])
+Conf libgtk-4-media-gstreamer (4.18.6+ds-2 kali-rolling [amd64])
+Conf libgtk-layer-shell0 (0.9.2-2 kali-rolling [amd64])
+Conf libgtksourceview-4-common (4.8.4-7 kali-rolling [all])
+Conf libheif-plugin-x265 (1.20.2-2 kali-rolling [amd64])
+Conf libheif-plugin-aomenc (1.20.2-2 kali-rolling [amd64])
+Conf libheif-plugin-dav1d (1.20.2-2 kali-rolling [amd64])
+Conf libheif1 (1.20.2-2 kali-rolling [amd64])
+Conf libheif-plugin-libde265 (1.20.2-2 kali-rolling [amd64])
+Conf libhidapi-hidraw0 (0.15.0-2 kali-rolling [amd64])
+Conf libhunspell-1.7-0 (1.7.2+really1.7.2-11 kali-rolling [amd64])
+Conf libidn12 (1.43-2 kali-rolling [amd64])
+Conf libijs-0.35 (0.35-15.3 kali-rolling [amd64])
+Conf libimobiledevice-glue-1.0-0 (1.3.2-2 kali-rolling [amd64])
+Conf libinih1 (61-1 kali-rolling [amd64])
+Conf libinireader0 (61-1 kali-rolling [amd64])
+Conf libio-socket-ssl-perl (2.095-1 kali-rolling [all])
+Conf libjack-jackd2-0 (1.9.22~dfsg-5 kali-rolling [amd64])
+Conf libjcode-pm-perl (2.07-1 kali-rolling [amd64])
+Conf libjq1 (1.8.1-3 kali-rolling [amd64])
+Conf libjudydebian1 (1.0.5-6 kali-rolling [amd64])
+Conf liblapack3 (3.12.1-6 kali-rolling [amd64])
+Conf libldap-common (2.6.10+dfsg-1 kali-rolling [all])
+Conf llvm-spirv-18 (18.1.15-1 kali-rolling [amd64])
+Conf libllvmspirvlib18.1 (18.1.15-1 kali-rolling [amd64])
+Conf liblrdf0 (0.6.1-5 kali-rolling [amd64])
+Conf libmanette-0.2-0 (0.2.12-2 kali-rolling [amd64])
+Conf libmbedcrypto16 (3.6.4-2 kali-rolling [amd64])
+Conf libmongoc-1.0-0t64 (1.30.4-1 kali-rolling [amd64])
+Conf libmpg123-0t64 (1.33.2-1 kali-rolling [amd64])
+Conf libnet-cidr-perl (0.25-1 kali-rolling [all])
+Conf libopenal-data (1:1.24.2-2 kali-rolling [all])
+Conf libopenal1 (1:1.24.2-2 kali-rolling [amd64])
+Conf libopenfec1 (1.4.2.12+dfsg-1 kali-rolling [amd64])
+Conf libopenjp2-7 (2.5.3-2.1 kali-rolling [amd64])
+Conf libopenmpt0t64 (0.8.2-2 kali-rolling [amd64])
+Conf libout123-0t64 (1.33.2-1 kali-rolling [amd64])
+Conf libpaho-mqtt1.3 (1.3.15-1 kali-rolling [amd64])
+Conf libpam-gnome-keyring (48.0-3 kali-rolling [amd64])
+Conf libpfm4 (4.13.0+git106-g3e4031b-1 kali-rolling [amd64])
+Conf libpipewire-0.3-common (1.4.7-3 kali-rolling [all])
+Conf libpoppler-glib8t64 (25.03.0-5 kali-rolling [amd64])
+Conf libpoppler147 (25.03.0-5 kali-rolling [amd64])
+Conf libpostproc58 (7:7.1.1-1+b5 kali-rolling [amd64])
+Conf proj-data (9.6.2-1 kali-rolling [all])
+Conf libproj25 (9.6.2-1 kali-rolling [amd64])
+Conf libqt5opengl5t64 (5.15.15+dfsg-6 kali-rolling [amd64])
+Conf libqt5printsupport5t64 (5.15.15+dfsg-6 kali-rolling [amd64])
+Conf libqt5sql5t64 (5.15.15+dfsg-6 kali-rolling [amd64])
+Conf libqt5sql5-sqlite (5.15.15+dfsg-6 kali-rolling [amd64])
+Conf libqt5test5t64 (5.15.15+dfsg-6 kali-rolling [amd64])
+Conf libqt5webengine5 (5.15.18+dfsg-2+b3 kali-rolling [amd64])
+Conf libqt5webenginewidgets5 (5.15.18+dfsg-2+b3 kali-rolling [amd64])
+Conf libqt5xml5t64 (5.15.15+dfsg-6 kali-rolling [amd64])
+Conf libqt6core6t64 (6.8.2+dfsg-9 kali-rolling [amd64])
+Conf libqt6dbus6 (6.8.2+dfsg-9 kali-rolling [amd64])
+Conf libqt6opengl6 (6.8.2+dfsg-9 kali-rolling [amd64])
+Conf libqt6gui6 (6.8.2+dfsg-9 kali-rolling [amd64])
+Conf qt6-qpa-plugins (6.8.2+dfsg-9 kali-rolling [amd64])
+Conf libqt6network6 (6.8.2+dfsg-9 kali-rolling [amd64])
+Conf libqt6widgets6 (6.8.2+dfsg-9 kali-rolling [amd64])
+Conf libqt6openglwidgets6 (6.8.2+dfsg-9 kali-rolling [amd64])
+Conf libqt6printsupport6 (6.8.2+dfsg-9 kali-rolling [amd64])
+Conf libqt6sql6 (6.8.2+dfsg-9 kali-rolling [amd64])
+Conf libqt6sql6-sqlite (6.8.2+dfsg-9 kali-rolling [amd64])
+Conf libqt6test6 (6.8.2+dfsg-9 kali-rolling [amd64])
+Conf libqt6xml6 (6.8.2+dfsg-9 kali-rolling [amd64])
+Conf libqtermwidget6-2 (2.2.0-1 kali-rolling [amd64])
+Conf qtermwidget-data (2.2.0-1 kali-rolling [all])
+Conf libraqm0 (0.10.3-1 kali-rolling [amd64])
+Conf libre2-11 (20250805-1 kali-rolling [amd64])
+Conf librpmsign10 (4.20.1+dfsg-3 kali-rolling [amd64])
+Conf librpmbuild10 (4.20.1+dfsg-3 kali-rolling [amd64])
+Conf librpm10 (4.20.1+dfsg-3 kali-rolling [amd64])
+Conf librpmio10 (4.20.1+dfsg-3 kali-rolling [amd64])
+Conf libsdl2-2.0-0 (2.32.8+dfsg-2 kali-rolling [amd64])
+Conf libsdl2-mixer-2.0-0 (2.8.1+dfsg-3 kali-rolling [amd64])
+Conf libspeechd-module0 (0.12.0-5 kali-rolling [amd64])
+Conf speech-dispatcher-espeak-ng (0.12.0-5 kali-rolling [amd64])
+Conf speech-dispatcher (0.12.0-5 kali-rolling [amd64])
+Conf speech-dispatcher-audio-plugins (0.12.0-5 kali-rolling [amd64])
+Conf libspeechd2 (0.12.0-5 kali-rolling [amd64])
+Conf libss2 (1.47.2-3+b3 kali-rolling [amd64])
+Conf libssh-4 (0.11.2-1 kali-rolling [amd64])
+Conf libsybdb5 (1.5.4+ds-1 kali-rolling [amd64])
+Conf libsyn123-0t64 (1.33.2-1 kali-rolling [amd64])
+Conf libsz2 (1.1.4-2 kali-rolling [amd64])
+Conf libtcl8.6 (8.6.17+dfsg-1 kali-rolling [amd64])
+Conf libtk8.6 (8.6.17-1 kali-rolling [amd64])
+Conf libupower-glib3 (1.90.9-7 kali-rolling [amd64])
+Conf upower (1.90.9-7 kali-rolling [amd64])
+Conf liburcu8t64 (0.15.3-1 kali-rolling [amd64])
+Conf libvpl2 (1:2.15.0-1 kali-rolling [amd64])
+Conf libvpx9 (1.15.0-2.1 kali-rolling [amd64])
+Conf libwacom-common (2.16.1-1 kali-rolling [all])
+Conf libwacom9 (2.16.1-1 kali-rolling [amd64])
+Conf libwildmidi2 (0.4.6-1 kali-rolling [amd64])
+Conf libwireshark-data (4.4.7-1 kali-rolling [all])
+Conf libwsutil16 (4.4.7-1+b1 kali-rolling [amd64])
+Conf libwiretap15 (4.4.7-1+b1 kali-rolling [amd64])
+Conf libxatracker2 (25.0.7-2 kali-rolling [amd64])
+Conf libxfce4windowing-common (4.20.3-1 kali-rolling [all])
+Conf libxfce4windowing-0-0 (4.20.3-1 kali-rolling [amd64])
+Conf libxml-regexp-perl (0.04-2 kali-rolling [all])
+Conf libxml-twig-perl (1:3.54-1 kali-rolling [all])
+Conf libxvidcore4 (2:1.3.7-3 kali-rolling [amd64])
+Conf libyara10 (4.5.4-1 kali-rolling [amd64])
+Conf libzbar0t64 (0.23.93-9 kali-rolling [amd64])
+Conf libze1 (1.24.1-2 kali-rolling [amd64])
+Conf libzimg2 (3.0.6+ds1-1 kali-rolling [amd64])
+Conf libzip-dev (1.11.4-1 kali-rolling [amd64])
+Conf libzip5 (1.11.4-1 kali-rolling [amd64])
+Conf zipcmp (1.11.4-1 kali-rolling [amd64])
+Conf zipmerge (1.11.4-1 kali-rolling [amd64])
+Conf ziptool (1.11.4-1 kali-rolling [amd64])
+Conf linux-base (4.14 kali-rolling [all])
+Conf mariadb-plugin-provider-bzip2 (1:11.8.3-1+b1 kali-rolling [amd64])
+Conf mariadb-plugin-provider-lz4 (1:11.8.3-1+b1 kali-rolling [amd64])
+Conf mariadb-plugin-provider-lzma (1:11.8.3-1+b1 kali-rolling [amd64])
+Conf mariadb-plugin-provider-lzo (1:11.8.3-1+b1 kali-rolling [amd64])
+Conf mariadb-plugin-provider-snappy (1:11.8.3-1+b1 kali-rolling [amd64])
+Conf mesa-vdpau-drivers (25.0.7-2 kali-rolling [amd64])
+Conf mesa-vulkan-drivers (25.0.7-2 kali-rolling [amd64])
+Conf mobile-broadband-provider-info (20250613-2 kali-rolling [all])
+Conf modemmanager (1.24.2-1 kali-rolling [amd64])
+Conf mpg123 (1.33.2-1 kali-rolling [amd64])
+Conf netdiscover (0.21-1 kali-rolling [amd64])
+Conf netmask (2.5.0-1 kali-rolling [amd64])
+Conf netsed (1.4-1 kali-rolling [amd64])
+Conf network-manager-openvpn-gnome (1.12.2-2 kali-rolling [amd64])
+Conf network-manager-openvpn (1.12.2-2 kali-rolling [amd64])
+Conf network-manager-pptp-gnome (1.2.12-5 kali-rolling [amd64])
+Conf network-manager-pptp (1.2.12-5 kali-rolling [amd64])
+Conf network-manager-vpnc-gnome (1.4.0-3 kali-rolling [amd64])
+Conf network-manager-vpnc (1.4.0-3 kali-rolling [amd64])
+Conf nginx (1.26.3-3+b1 kali-rolling [amd64])
+Conf nginx-common (1.26.3-3 kali-rolling [all])
+Conf notus-scanner (22.7.2-1 kali-rolling [all])
+Conf offsec-awae-python2 (2025.3.0 kali-rolling [amd64])
+Conf openjdk-21-jre (21.0.8+9-1 kali-rolling [amd64])
+Conf openjdk-21-jre-headless (21.0.8+9-1 kali-rolling [amd64])
+Conf opensc (0.26.1-2 kali-rolling [amd64])
+Conf opensc-pkcs11 (0.26.1-2 kali-rolling [amd64])
+Conf openvas-scanner (23.23.1-1 kali-rolling [amd64])
+Conf ospd-openvas (22.9.0-1 kali-rolling [all])
+Conf peass (20250801.03e73bf3-0kali1 kali-rolling [all])
+Conf php8.4 (8.4.11-1 kali-rolling [all])
+Conf postgresql-17-pg-gvm (22.6.11-1 kali-rolling [amd64])
+Conf preview-latex-style (13.2-1.1 kali-rolling [all])
+Conf proj-bin (9.6.2-1 kali-rolling [amd64])
+Conf python3-pyqt6 (6.9.0-2 kali-rolling [amd64])
+Conf pyqt6-dev-tools (6.9.0-2 kali-rolling [all])
+Conf python-matplotlib-data (3.10.1+dfsg1-4 kali-rolling [all])
+Conf python3-altgraph (0.17.4+ds-3 kali-rolling [all])
+Conf python3-asttokens (3.0.0-2 kali-rolling [all])
+Conf python3-bitstruct (8.20.0-2 kali-rolling [amd64])
+Conf python3-blinker (1.9.0-2 kali-rolling [all])
+Conf python3-urllib3 (2.3.0-3 kali-rolling [all])
+Conf python3-censys (2.2.18-1 kali-rolling [all])
+Conf python3-cffi (2.0.0~b1-1 kali-rolling [all])
+Conf python3-cffi-backend (2.0.0~b1-1 kali-rolling [amd64])
+Conf python3-charset-normalizer (3.4.3-1 kali-rolling [amd64])
+Conf python3-cli-helpers (2.7.0-2 kali-rolling [all])
+Conf python3-contourpy (1.3.1-2 kali-rolling [amd64])
+Conf python3-cssselect2 (0.8.0-1 kali-rolling [all])
+Conf python3-cycler (0.12.1-2 kali-rolling [all])
+Conf python3-django (3:4.2.23-1 kali-rolling [all])
+Conf python3-engineio (4.12.1-2 kali-rolling [all])
+Conf python3-executing (2.2.0-0.3 kali-rolling [all])
+Conf python3-flask-restful (0.3.10-6 kali-rolling [all])
+Conf python3-frozenlist (1.7.0-1 kali-rolling [amd64])
+Conf python3-gdal (3.10.3+dfsg-2+b1 kali-rolling [amd64])
+Conf python3-paramiko (3.5.1-3 kali-rolling [all])
+Conf python3-gvm (26.5.0-1 kali-rolling [all])
+Conf python3-ipy (1:1.01-5 kali-rolling [all])
+Conf python3-jq (1.10.0+dfsg-1 kali-rolling [amd64])
+Conf python3-legacycrypt (0.3-3 kali-rolling [all])
+Conf python3-macholib (1.16.3+ds-3 kali-rolling [all])
+Conf python3-matplotlib (3.10.1+dfsg1-4 kali-rolling [amd64])
+Conf python3-mechanize (1:0.4.10+ds-5 kali-rolling [all])
+Conf python3-numexpr (2.11.0-1 kali-rolling [amd64])
+Conf python3-opengl (3.1.9+dfsg-2 kali-rolling [all])
+Conf python3-pgspecial (2.2.1-1 kali-rolling [all])
+Conf python3-pip (25.2+dfsg-1 kali-rolling [all])
+Conf python3-plaster-pastedeploy (0.5-7 kali-rolling [all])
+Conf python3-prompt-toolkit (3.0.51-4 kali-rolling [all])
+Conf python3-pyexploitdb (0.2.95-0kali1 kali-rolling [all])
+Conf python3-pyfiglet (1.0.3+dfsg-1 kali-rolling [all])
+Conf python3-pygraphviz (1.14-2 kali-rolling [amd64])
+Conf python3-pyinstaller (6.13.0+ds-2 kali-rolling [amd64])
+Conf python3-pylsqpack (0.3.22-1 kali-rolling [amd64])
+Conf python3-qrcode (8.2-1 kali-rolling [all])
+Conf python3-rq (2.3.3-2 kali-rolling [all])
+Conf python3-slugify (8.0.4-4 kali-rolling [all])
+Conf python3-socketio (5.13.0-1 kali-rolling [all])
+Conf python3-speechd (0.12.0-5 kali-rolling [all])
+Conf python3-starlette (0.46.1-3 kali-rolling [all])
+Conf python3.13-tk (3.13.6-1 kali-rolling [amd64])
+Conf python3-tk (3.13.5-1 kali-rolling [amd64])
+Conf python3-typeshed (0.0~git20241223.ea91db2-3 kali-rolling [all])
+Conf python3-virtualenv (20.34.0+ds-1 kali-rolling [all])
+Conf python3-xlwt (1.3.0-7 kali-rolling [all])
+Conf python3-yara (4.5.4-1 kali-rolling [amd64])
+Conf python3-zstandard (0.24.0-1 kali-rolling [amd64])
+Conf qt5-gtk-platformtheme (5.15.15+dfsg-6 kali-rolling [amd64])
+Conf qt6-base-dev-tools (6.8.2+dfsg-9 kali-rolling [amd64])
+Conf qt6-gtk-platformtheme (6.8.2+dfsg-9 kali-rolling [amd64])
+Conf qtbase5-dev-tools (5.15.15+dfsg-6 kali-rolling [amd64])
+Conf read-edid (3.0.2-2 kali-rolling [amd64])
+Conf rpm2cpio (4.20.1+dfsg-3 kali-rolling [amd64])
+Conf rpm (4.20.1+dfsg-3 kali-rolling [amd64])
+Conf rpm-common (4.20.1+dfsg-3 kali-rolling [amd64])
+Conf rsyslog (8.2506.0-2 kali-rolling [amd64])
+Conf ruby-gssapi (1.2.0-2 kali-rolling [all])
+Conf ruby-gyoku (1.3.1-2 kali-rolling [all])
+Conf ruby-little-plugger (1.1.4-2 kali-rolling [all])
+Conf ruby-logging (2.2.2-2 kali-rolling [all])
+Conf ruby-minitest (5.25.4-3 kali-rolling [all])
+Conf ruby-nori (2.6.0-2 kali-rolling [all])
+Conf ruby-sqlite3 (1.7.3-2 kali-rolling [amd64])
+Conf ruby-unf (0.1.4-3 kali-rolling [all])
+Conf sound-theme-freedesktop (0.8-6 kali-rolling [all])
+Conf sphinx-rtd-theme-common (3.0.2+dfsg-3 kali-rolling [all])
+Conf squashfs-tools (1:4.7.2-1 kali-rolling [amd64])
+Conf sslyze (6.2.0-0kali1 kali-rolling [all])
+Conf tcl8.6 (8.6.17+dfsg-1 kali-rolling [amd64])
+Conf tdb-tools (2:1.4.13+samba4.22.4+dfsg-1 kali-rolling [amd64])
+Conf texlive-latex-extra (2025.20250727-2 kali-rolling [all])
+Conf texlive-latex-recommended (2025.20250727-2 kali-rolling [all])
+Conf texlive-latex-base (2025.20250727-2 kali-rolling [all])
+Conf texlive-pictures (2025.20250727-2 kali-rolling [all])
+Conf texlive-plain-generic (2025.20250727-2 kali-rolling [all])
+Conf texlive-fonts-recommended (2025.20250727-2 kali-rolling [all])
+Conf texlive-base (2025.20250727-2 kali-rolling [all])
+Conf theharvester (4.8.2-0kali1 kali-rolling [all])
+Conf tk8.6 (8.6.17-1 kali-rolling [amd64])
+Conf toilet-fonts (0.3-4 kali-rolling [all])
+Conf unrar (1:7.1.10-2 kali-rolling [amd64])
+Conf update-inetd (4.54 kali-rolling [all])
+Conf usb.ids (2025.07.26-1 kali-rolling [all])
+Conf virtualbox-guest-x11 (7.1.12-dfsg-2 kali-rolling [amd64])
+Conf virtualbox-guest-utils (7.1.12-dfsg-2 kali-rolling [amd64])
+Conf whatweb (0.6.1-1 kali-rolling [all])
+Conf whois (5.6.4 kali-rolling [amd64])
+Conf wireless-regdb (2025.07.10-1 kali-rolling [all])
+Conf xdg-desktop-portal (1.20.3+ds-1 kali-rolling [amd64])
+Conf xml-twig-tools (1:3.54-1 kali-rolling [all])
+Conf xserver-xephyr (2:21.1.16-1.3 kali-rolling [amd64])
+Conf xvfb (2:21.1.16-1.3 kali-rolling [amd64])
+Conf yelp-xsl (49~beta-1 kali-rolling [all])
