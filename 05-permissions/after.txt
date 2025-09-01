@@ -1,0 +1,3 @@
+-rw-r--r-- 1 root root   3260 Sep  1 10:51 /etc/passwd
+-rw-r----- 1 root shadow 1519 Sep  1 10:51 /etc/shadow
+-r--r----- 1 root root   1714 May  4 11:48 /etc/sudoers
