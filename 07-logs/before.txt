@@ -1,0 +1,13 @@
+● rsyslog.service - System Logging Service
+     Loaded: loaded (/usr/lib/systemd/system/rsyslog.service; enabled; preset: enabled)
+     Active: active (running) since Mon 2025-09-01 10:58:30 EDT; 59min ago
+   Main PID: 1274 (rsyslogd)
+      Tasks: 4 (limit: 4546)
+     Memory: 2.4M
+        CPU: 101ms
+     CGroup: /system.slice/rsyslog.service
+             └─1274 /usr/sbin/rsyslogd -n -iNONE
+
+Sep 01 10:58:30 kali systemd[1]: Starting rsyslog.service - System Logging Service...
+Sep 01 10:58:30 kali rsyslogd[1274]: [origin software="rsyslogd" swVersion="8.2504.0" ... ]
+Sep 01 10:58:30 kali systemd[1]: Started rsyslog.service - System Logging Service.
