@@ -1,0 +1,5 @@
+minlen = 12
+minclass = 3
+difok = 4
+maxrepeat = 3
+maxsequence = 3
